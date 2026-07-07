@@ -1,0 +1,7124 @@
+# Lista de Exercícios em C
+
+## Bloco 1 — Variáveis, `printf` e `scanf`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar os primeiros fundamentos da linguagem C:
+
+* criação de variáveis;
+* uso dos tipos `int`, `float`, `char` e `char[]`;
+* leitura de dados com `scanf`;
+* exibição de informações com `printf`;
+* organização básica de um programa em C;
+* montagem de mensagens simples com dados digitados pelo usuário.
+
+---
+
+## Exercícios
+
+### 1. Nome do aluno
+
+Crie um programa em C que peça o nome de um aluno e exiba a seguinte mensagem:
+
+`Olá, NOME! Seja bem-vindo à aula de Linguagem C.`
+
+---
+
+### 2. Idade do aluno
+
+Crie um programa que leia a idade de uma pessoa e mostre:
+
+`Você tem X anos.`
+
+---
+
+### 3. Nome e idade
+
+Crie um programa que leia o nome e a idade de uma pessoa. Depois, exiba uma frase no seguinte formato:
+
+`Maria tem 16 anos.`
+
+---
+
+### 4. Cidade onde mora
+
+Crie um programa que leia o nome de uma pessoa e a cidade onde ela mora. Depois, mostre:
+
+`João mora em Belo Horizonte.`
+
+---
+
+### 5. Curso técnico
+
+Crie um programa que leia o nome do aluno e o curso que ele faz. Depois, exiba:
+
+`O aluno NOME está matriculado no curso CURSO.`
+
+---
+
+### 6. Número favorito
+
+Crie um programa que peça ao usuário seu número inteiro favorito e exiba:
+
+`Seu número favorito é X.`
+
+---
+
+### 7. Altura da pessoa
+
+Crie um programa que leia a altura de uma pessoa usando uma variável do tipo `float`. Depois, exiba:
+
+`Sua altura é X metros.`
+
+---
+
+### 8. Peso da pessoa
+
+Crie um programa que leia o peso de uma pessoa e mostre:
+
+`Seu peso é X kg.`
+
+---
+
+### 9. Letra inicial
+
+Crie um programa que leia a primeira letra do nome de uma pessoa usando uma variável do tipo `char`. Depois, exiba:
+
+`A primeira letra do seu nome é X.`
+
+---
+
+### 10. Nome do produto
+
+Crie um programa que leia o nome de um produto e exiba:
+
+`Produto cadastrado: NOME_DO_PRODUTO.`
+
+---
+
+### 11. Preço de um produto
+
+Crie um programa que leia o preço de um produto e mostre:
+
+`O produto custa R$ X.`
+
+---
+
+### 12. Produto e preço
+
+Crie um programa que leia o nome e o preço de um produto. Depois, exiba:
+
+`O produto Mouse custa R$ 45.90.`
+
+---
+
+### 13. Cadastro simples de aluno
+
+Crie um programa que leia:
+
+* nome do aluno;
+* idade;
+* turma.
+
+Depois, exiba os dados cadastrados de forma organizada.
+
+---
+
+### 14. Cadastro de funcionário
+
+Crie um programa que leia:
+
+* nome do funcionário;
+* cargo;
+* salário.
+
+Depois, exiba:
+
+`Funcionário: NOME`
+`Cargo: CARGO`
+`Salário: R$ SALARIO`
+
+---
+
+### 15. Dados de um livro
+
+Crie um programa que leia:
+
+* título do livro;
+* nome do autor;
+* ano de publicação.
+
+Depois, exiba uma ficha com essas informações.
+
+---
+
+### 16. Dados de um filme
+
+Crie um programa que leia:
+
+* nome do filme;
+* ano de lançamento;
+* nota de avaliação.
+
+Depois, exiba os dados no formato:
+
+`Filme: NOME`
+`Ano: ANO`
+`Nota: NOTA`
+
+---
+
+### 17. Nome de usuário
+
+Crie um programa que leia um nome de usuário e exiba:
+
+`Usuário NOME cadastrado com sucesso.`
+
+---
+
+### 18. Login simples
+
+Crie um programa que leia:
+
+* nome de usuário;
+* senha.
+
+Depois, exiba:
+
+`Usuário NOME tentou acessar o sistema.`
+
+Não é necessário verificar se a senha está correta.
+
+---
+
+### 19. Cadastro de jogo
+
+Crie um programa que leia:
+
+* nome de um jogo;
+* ano de lançamento;
+* preço.
+
+Depois, exiba uma mensagem simulando o cadastro do jogo.
+
+---
+
+### 20. Dados de um veículo
+
+Crie um programa que leia:
+
+* modelo do carro;
+* ano;
+* valor.
+
+Depois, exiba uma ficha com os dados do veículo.
+
+---
+
+### 21. Nome da escola
+
+Crie um programa que leia o nome de uma escola e exiba:
+
+`Você estuda na escola NOME_DA_ESCOLA.`
+
+---
+
+### 22. Disciplina favorita
+
+Crie um programa que leia o nome de um aluno e sua disciplina favorita. Depois, exiba:
+
+`A disciplina favorita de NOME é DISCIPLINA.`
+
+---
+
+### 23. Nota de uma prova
+
+Crie um programa que leia o nome de um aluno e a nota que ele tirou em uma prova. Depois, exiba:
+
+`NOME tirou NOTA na prova.`
+
+---
+
+### 24. Placa de veículo
+
+Crie um programa que leia a placa de um veículo e exiba:
+
+`Veículo de placa PLACA registrado no sistema.`
+
+---
+
+### 25. Temperatura atual
+
+Crie um programa que leia a temperatura atual de uma cidade e exiba:
+
+`A temperatura atual é X graus.`
+
+---
+
+### 26. Nome e temperatura da cidade
+
+Crie um programa que leia:
+
+* nome da cidade;
+* temperatura atual.
+
+Depois, exiba:
+
+`Em CIDADE, a temperatura atual é X graus.`
+
+---
+
+### 27. Distância entre cidades
+
+Crie um programa que leia o nome de duas cidades e a distância entre elas. Depois, exiba:
+
+`A distância entre CIDADE1 e CIDADE2 é de X km.`
+
+---
+
+### 28. Número de matrícula
+
+Crie um programa que leia:
+
+* nome do aluno;
+* número de matrícula.
+
+Depois, exiba:
+
+`Aluno NOME cadastrado com a matrícula NUMERO.`
+
+---
+
+### 29. Dados de uma compra
+
+Crie um programa que leia:
+
+* nome do cliente;
+* nome do produto;
+* valor da compra.
+
+Depois, exiba um resumo da compra.
+
+---
+
+### 30. Nome e idade do professor
+
+Crie um programa que leia o nome e a idade de um professor. Depois, exiba:
+
+`O professor NOME tem X anos.`
+
+---
+
+### 31. Computador cadastrado
+
+Crie um programa que leia:
+
+* marca do computador;
+* quantidade de memória RAM;
+* tamanho do SSD.
+
+Depois, exiba uma ficha técnica simples.
+
+---
+
+### 32. Dados de um celular
+
+Crie um programa que leia:
+
+* modelo do celular;
+* marca;
+* preço.
+
+Depois, exiba os dados do celular.
+
+---
+
+### 33. Quantidade em estoque
+
+Crie um programa que leia o nome de um produto e a quantidade disponível em estoque. Depois, exiba:
+
+`Existem X unidades de PRODUTO no estoque.`
+
+---
+
+### 34. Cadastro de animal
+
+Crie um programa que leia:
+
+* nome do animal;
+* espécie;
+* idade.
+
+Depois, exiba uma ficha do animal.
+
+---
+
+### 35. Informações de uma música
+
+Crie um programa que leia:
+
+* nome da música;
+* nome do artista;
+* duração em minutos.
+
+Depois, exiba essas informações.
+
+---
+
+### 36. Nome completo separado
+
+Crie um programa que leia o primeiro nome e o sobrenome de uma pessoa em variáveis separadas. Depois, exiba:
+
+`Nome completo: PRIMEIRO_NOME SOBRENOME`
+
+---
+
+### 37. Endereço simples
+
+Crie um programa que leia:
+
+* nome da rua;
+* número da casa;
+* bairro.
+
+Depois, exiba o endereço completo.
+
+---
+
+### 38. Dados de uma conta bancária fictícia
+
+Crie um programa que leia:
+
+* nome do cliente;
+* número da conta;
+* saldo.
+
+Depois, exiba os dados da conta.
+
+---
+
+### 39. Cadastro de personagem
+
+Crie um programa que leia:
+
+* nome de um personagem;
+* nível;
+* quantidade de vida.
+
+Depois, exiba uma ficha do personagem.
+
+---
+
+### 40. Perfil de jogador
+
+Crie um programa que leia:
+
+* nome do jogador;
+* jogo favorito;
+* quantidade de horas jogadas.
+
+Depois, exiba um pequeno perfil do jogador.
+
+---
+
+### 41. Produto de mercado
+
+Crie um programa que leia:
+
+* nome de um alimento;
+* peso em quilos;
+* preço.
+
+Depois, exiba:
+
+`O produto ALIMENTO pesa X kg e custa R$ Y.`
+
+---
+
+### 42. Cadastro de rede social
+
+Crie um programa que leia:
+
+* nome do usuário;
+* arroba;
+* quantidade de seguidores.
+
+Depois, exiba o perfil cadastrado.
+
+---
+
+### 43. Dados de uma aula
+
+Crie um programa que leia:
+
+* nome da disciplina;
+* nome do professor;
+* número da sala.
+
+Depois, exiba:
+
+`A aula de DISCIPLINA será na sala X com o professor NOME.`
+
+---
+
+### 44. Informações de uma viagem
+
+Crie um programa que leia:
+
+* destino da viagem;
+* quantidade de dias;
+* valor estimado.
+
+Depois, exiba um resumo da viagem.
+
+---
+
+### 45. Cadastro de lanche
+
+Crie um programa que leia:
+
+* nome do lanche;
+* preço;
+* quantidade de calorias.
+
+Depois, exiba as informações do lanche.
+
+---
+
+### 46. Dados de um campeonato
+
+Crie um programa que leia:
+
+* nome do time;
+* quantidade de vitórias;
+* quantidade de derrotas.
+
+Depois, exiba os dados do time.
+
+---
+
+### 47. Informações de um aplicativo
+
+Crie um programa que leia:
+
+* nome do aplicativo;
+* categoria;
+* nota de avaliação.
+
+Depois, exiba uma ficha do aplicativo.
+
+---
+
+### 48. Cadastro de ferramenta
+
+Crie um programa que leia:
+
+* nome da ferramenta;
+* finalidade;
+* preço.
+
+Depois, exiba os dados cadastrados.
+
+---
+
+### 49. Dados pessoais organizados
+
+Crie um programa que leia:
+
+* nome;
+* idade;
+* altura;
+* peso;
+* cidade.
+
+Depois, exiba todas as informações de forma organizada, uma em cada linha.
+
+---
+
+### 50. Mini cadastro completo
+
+Crie um programa que leia os seguintes dados de uma pessoa:
+
+* nome;
+* idade;
+* cidade;
+* profissão;
+* salário;
+* altura;
+* letra inicial do nome.
+
+Depois, exiba uma ficha completa usando `printf`.
+
+Exemplo de saída:
+
+`Nome: Carlos`
+`Idade: 25 anos`
+`Cidade: Contagem`
+`Profissão: Técnico em Informática`
+`Salário: R$ 2500.00`
+`Altura: 1.78 m`
+`Inicial: C`
+
+---
+
+## Orientação para os alunos
+
+Em todos os exercícios deste bloco, use:
+
+* `#include <stdio.h>`;
+* função `main`;
+* variáveis adequadas para cada tipo de dado;
+* `printf` para mostrar mensagens;
+* `scanf` para ler dados digitados pelo usuário.
+
+Quando precisar ler textos com espaço, o professor poderá orientar o uso de técnicas específicas posteriormente. Neste primeiro momento, o aluno pode usar nomes simples, sem espaço, para facilitar a prática inicial.
+
+
+# Lista de Exercícios em C
+
+## Bloco 2 — Operadores Matemáticos
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar operações matemáticas básicas em C, utilizando variáveis, entrada de dados com `scanf`, saída com `printf` e operadores aritméticos.
+
+Os principais operadores trabalhados serão:
+
+* `+` para soma;
+* `-` para subtração;
+* `*` para multiplicação;
+* `/` para divisão;
+* `%` para resto da divisão inteira.
+
+---
+
+## Exercícios
+
+### 51. Soma de dois números inteiros
+
+Crie um programa que leia dois números inteiros e mostre a soma entre eles.
+
+Exemplo de saída:
+
+`A soma é: 15`
+
+---
+
+### 52. Subtração de dois números
+
+Crie um programa que leia dois números inteiros e mostre o resultado da subtração do primeiro pelo segundo.
+
+---
+
+### 53. Multiplicação de dois números
+
+Crie um programa que leia dois números inteiros e mostre o resultado da multiplicação entre eles.
+
+---
+
+### 54. Divisão de dois números
+
+Crie um programa que leia dois números reais e mostre o resultado da divisão do primeiro pelo segundo.
+
+---
+
+### 55. As quatro operações
+
+Crie um programa que leia dois números inteiros e mostre:
+
+* soma;
+* subtração;
+* multiplicação;
+* divisão.
+
+---
+
+### 56. Dobro de um número
+
+Crie um programa que leia um número inteiro e mostre o dobro desse número.
+
+---
+
+### 57. Triplo de um número
+
+Crie um programa que leia um número inteiro e mostre o triplo desse número.
+
+---
+
+### 58. Metade de um número
+
+Crie um programa que leia um número real e mostre a metade desse número.
+
+---
+
+### 59. Número ao quadrado
+
+Crie um programa que leia um número inteiro e mostre o quadrado desse número.
+
+Exemplo:
+
+Entrada: `5`
+Saída: `25`
+
+---
+
+### 60. Número ao cubo
+
+Crie um programa que leia um número inteiro e mostre o cubo desse número.
+
+---
+
+### 61. Soma de três números
+
+Crie um programa que leia três números inteiros e mostre a soma entre eles.
+
+---
+
+### 62. Média de duas notas
+
+Crie um programa que leia duas notas de um aluno e calcule a média.
+
+---
+
+### 63. Média de três notas
+
+Crie um programa que leia três notas de um aluno e calcule a média final.
+
+---
+
+### 64. Média de quatro notas
+
+Crie um programa que leia quatro notas de um aluno e calcule a média.
+
+---
+
+### 65. Soma de preços
+
+Crie um programa que leia o preço de três produtos e mostre o valor total da compra.
+
+---
+
+### 66. Troco de uma compra
+
+Crie um programa que leia:
+
+* valor da compra;
+* valor pago pelo cliente.
+
+Depois, calcule e mostre o troco.
+
+---
+
+### 67. Cálculo de salário mensal
+
+Crie um programa que leia:
+
+* valor recebido por hora;
+* quantidade de horas trabalhadas no mês.
+
+Depois, calcule o salário mensal.
+
+---
+
+### 68. Aumento de salário
+
+Crie um programa que leia o salário de um funcionário e calcule o novo salário com aumento de 10%.
+
+---
+
+### 69. Desconto em produto
+
+Crie um programa que leia o preço de um produto e calcule o novo preço com desconto de 15%.
+
+---
+
+### 70. Preço com taxa
+
+Crie um programa que leia o preço de um produto e calcule o valor final com acréscimo de 8%.
+
+---
+
+### 71. Divisão de conta de restaurante
+
+Crie um programa que leia o valor total da conta de um restaurante e a quantidade de pessoas. Depois, calcule quanto cada pessoa deverá pagar.
+
+---
+
+### 72. Valor total de parcelas
+
+Crie um programa que leia o valor de uma parcela e a quantidade de parcelas. Depois, calcule o valor total pago.
+
+---
+
+### 73. Valor de cada parcela
+
+Crie um programa que leia o valor total de uma compra e a quantidade de parcelas. Depois, calcule o valor de cada parcela.
+
+---
+
+### 74. Conversão de metros para centímetros
+
+Crie um programa que leia um valor em metros e converta para centímetros.
+
+Lembre-se:
+
+`1 metro = 100 centímetros`
+
+---
+
+### 75. Conversão de quilômetros para metros
+
+Crie um programa que leia uma distância em quilômetros e converta para metros.
+
+Lembre-se:
+
+`1 quilômetro = 1000 metros`
+
+---
+
+### 76. Conversão de horas para minutos
+
+Crie um programa que leia uma quantidade de horas e converta para minutos.
+
+Lembre-se:
+
+`1 hora = 60 minutos`
+
+---
+
+### 77. Conversão de minutos para segundos
+
+Crie um programa que leia uma quantidade de minutos e converta para segundos.
+
+Lembre-se:
+
+`1 minuto = 60 segundos`
+
+---
+
+### 78. Conversão de dias para horas
+
+Crie um programa que leia uma quantidade de dias e converta para horas.
+
+Lembre-se:
+
+`1 dia = 24 horas`
+
+---
+
+### 79. Conversão de anos para meses
+
+Crie um programa que leia uma quantidade de anos e converta para meses.
+
+Lembre-se:
+
+`1 ano = 12 meses`
+
+---
+
+### 80. Área de um quadrado
+
+Crie um programa que leia o lado de um quadrado e calcule sua área.
+
+Fórmula:
+
+`área = lado * lado`
+
+---
+
+### 81. Perímetro de um quadrado
+
+Crie um programa que leia o lado de um quadrado e calcule seu perímetro.
+
+Fórmula:
+
+`perímetro = lado * 4`
+
+---
+
+### 82. Área de um retângulo
+
+Crie um programa que leia a base e a altura de um retângulo. Depois, calcule sua área.
+
+Fórmula:
+
+`área = base * altura`
+
+---
+
+### 83. Perímetro de um retângulo
+
+Crie um programa que leia a base e a altura de um retângulo. Depois, calcule seu perímetro.
+
+Fórmula:
+
+`perímetro = 2 * (base + altura)`
+
+---
+
+### 84. Área de um triângulo
+
+Crie um programa que leia a base e a altura de um triângulo. Depois, calcule sua área.
+
+Fórmula:
+
+`área = (base * altura) / 2`
+
+---
+
+### 85. Área de um círculo
+
+Crie um programa que leia o raio de um círculo e calcule sua área.
+
+Use:
+
+`área = 3.14 * raio * raio`
+
+---
+
+### 86. Comprimento de uma circunferência
+
+Crie um programa que leia o raio de uma circunferência e calcule seu comprimento.
+
+Use:
+
+`comprimento = 2 * 3.14 * raio`
+
+---
+
+### 87. Volume de uma caixa
+
+Crie um programa que leia:
+
+* comprimento;
+* largura;
+* altura.
+
+Depois, calcule o volume da caixa.
+
+Fórmula:
+
+`volume = comprimento * largura * altura`
+
+---
+
+### 88. Consumo médio de combustível
+
+Crie um programa que leia:
+
+* distância percorrida em quilômetros;
+* quantidade de litros de combustível gastos.
+
+Depois, calcule o consumo médio.
+
+Fórmula:
+
+`consumo = distância / litros`
+
+---
+
+### 89. Gasto com combustível
+
+Crie um programa que leia:
+
+* distância da viagem;
+* consumo médio do veículo em km/l;
+* preço do litro do combustível.
+
+Depois, calcule o valor aproximado gasto na viagem.
+
+---
+
+### 90. Velocidade média
+
+Crie um programa que leia:
+
+* distância percorrida;
+* tempo gasto.
+
+Depois, calcule a velocidade média.
+
+Fórmula:
+
+`velocidade média = distância / tempo`
+
+---
+
+### 91. Cálculo de IMC
+
+Crie um programa que leia:
+
+* peso;
+* altura.
+
+Depois, calcule o IMC.
+
+Fórmula:
+
+`IMC = peso / (altura * altura)`
+
+Neste exercício, não é necessário classificar o resultado.
+
+---
+
+### 92. Idade em dias
+
+Crie um programa que leia a idade de uma pessoa em anos e calcule aproximadamente quantos dias ela já viveu.
+
+Considere:
+
+`1 ano = 365 dias`
+
+---
+
+### 93. Salário com bônus
+
+Crie um programa que leia:
+
+* salário base;
+* valor do bônus.
+
+Depois, calcule o salário final.
+
+---
+
+### 94. Comissão de vendedor
+
+Crie um programa que leia:
+
+* salário fixo de um vendedor;
+* valor total vendido no mês.
+
+Depois, calcule o salário final considerando uma comissão de 5% sobre as vendas.
+
+---
+
+### 95. Valor com imposto
+
+Crie um programa que leia o valor de um produto e calcule o preço final com imposto de 12%.
+
+---
+
+### 96. Conversão de Celsius para Fahrenheit
+
+Crie um programa que leia uma temperatura em graus Celsius e converta para Fahrenheit.
+
+Fórmula:
+
+`F = (C * 9 / 5) + 32`
+
+---
+
+### 97. Conversão de Fahrenheit para Celsius
+
+Crie um programa que leia uma temperatura em Fahrenheit e converta para Celsius.
+
+Fórmula:
+
+`C = (F - 32) * 5 / 9`
+
+---
+
+### 98. Resto da divisão
+
+Crie um programa que leia dois números inteiros e mostre o resto da divisão do primeiro pelo segundo.
+
+Use o operador `%`.
+
+---
+
+### 99. Divisão inteira e resto
+
+Crie um programa que leia dois números inteiros e mostre:
+
+* resultado da divisão inteira;
+* resto da divisão.
+
+Exemplo:
+
+Entrada:
+
+`10`
+`3`
+
+Saída:
+
+`Divisão inteira: 3`
+`Resto: 1`
+
+---
+
+### 100. Separando centenas, dezenas e unidades
+
+Crie um programa que leia um número inteiro de três dígitos e mostre separadamente:
+
+* centena;
+* dezena;
+* unidade.
+
+Exemplo:
+
+Entrada:
+
+`347`
+
+Saída:
+
+`Centena: 3`
+`Dezena: 4`
+`Unidade: 7`
+
+Dica:
+
+Use divisão inteira e resto da divisão.
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, escolha corretamente o tipo de variável:
+
+* use `int` para números inteiros;
+* use `float` para valores com casas decimais;
+* use `%d` para ler ou imprimir inteiros;
+* use `%f` para ler valores reais;
+* use `%.2f` para exibir valores com duas casas decimais.
+
+Exemplo:
+
+```c
+printf("Valor final: R$ %.2f", valor);
+```
+
+Sempre teste o programa com valores diferentes para verificar se o cálculo está funcionando corretamente.
+
+
+
+# Lista de Exercícios em C
+
+## Bloco 3 — Expressões Matemáticas e Problemas Contextualizados
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá resolver problemas que exigem mais de uma operação matemática no mesmo programa.
+
+Os exercícios trabalham:
+
+* leitura de vários dados;
+* interpretação de enunciados;
+* montagem de fórmulas;
+* uso de parênteses em expressões;
+* cálculos com porcentagem;
+* problemas envolvendo dinheiro, tempo, medidas, médias e situações do cotidiano.
+
+---
+
+## Exercícios
+
+### 101. Compra com desconto
+
+Crie um programa que leia o preço de um produto e o percentual de desconto. Depois, calcule e mostre:
+
+* valor do desconto;
+* preço final do produto.
+
+---
+
+### 102. Compra com acréscimo
+
+Crie um programa que leia o preço de um produto e o percentual de acréscimo. Depois, calcule e mostre:
+
+* valor do acréscimo;
+* preço final do produto.
+
+---
+
+### 103. Salário com aumento percentual
+
+Crie um programa que leia o salário atual de um funcionário e o percentual de aumento. Depois, calcule e mostre:
+
+* valor do aumento;
+* novo salário.
+
+---
+
+### 104. Salário com desconto
+
+Crie um programa que leia o salário bruto de um funcionário e o percentual de desconto. Depois, calcule e mostre:
+
+* valor descontado;
+* salário líquido.
+
+---
+
+### 105. Média ponderada de duas notas
+
+Crie um programa que leia duas notas de um aluno.
+
+A primeira nota tem peso 2 e a segunda nota tem peso 3.
+
+Calcule e mostre a média ponderada.
+
+Fórmula:
+
+`media = (nota1 * 2 + nota2 * 3) / 5`
+
+---
+
+### 106. Média ponderada de três notas
+
+Crie um programa que leia três notas.
+
+Os pesos são:
+
+* nota 1: peso 2;
+* nota 2: peso 3;
+* nota 3: peso 5.
+
+Calcule e mostre a média ponderada.
+
+---
+
+### 107. Valor total com quantidade
+
+Crie um programa que leia:
+
+* nome de um produto;
+* preço unitário;
+* quantidade comprada.
+
+Depois, calcule e mostre o valor total da compra.
+
+---
+
+### 108. Compra com desconto por quantidade
+
+Crie um programa que leia:
+
+* preço unitário de um produto;
+* quantidade comprada;
+* percentual de desconto.
+
+Depois, calcule:
+
+* valor bruto da compra;
+* valor do desconto;
+* valor final.
+
+---
+
+### 109. Divisão de conta com taxa de serviço
+
+Crie um programa que leia:
+
+* valor da conta;
+* percentual da taxa de serviço;
+* quantidade de pessoas.
+
+Depois, calcule:
+
+* valor da taxa;
+* valor total com taxa;
+* valor que cada pessoa deverá pagar.
+
+---
+
+### 110. Conta de energia
+
+Crie um programa que leia:
+
+* quantidade de kWh consumidos;
+* valor de cada kWh;
+* valor da taxa fixa.
+
+Depois, calcule o valor total da conta de energia.
+
+---
+
+### 111. Conta de água
+
+Crie um programa que leia:
+
+* quantidade de metros cúbicos consumidos;
+* valor por metro cúbico;
+* taxa de esgoto.
+
+Depois, calcule o valor total da conta.
+
+---
+
+### 112. Custo de viagem de carro
+
+Crie um programa que leia:
+
+* distância da viagem em quilômetros;
+* consumo médio do carro em km/l;
+* preço do litro do combustível;
+* valor gasto com pedágios.
+
+Depois, calcule o custo total da viagem.
+
+---
+
+### 113. Tempo total de viagem
+
+Crie um programa que leia:
+
+* distância da viagem em quilômetros;
+* velocidade média em km/h;
+* tempo de parada em horas.
+
+Depois, calcule o tempo total da viagem.
+
+Fórmula:
+
+`tempo_total = distancia / velocidade + tempo_parada`
+
+---
+
+### 114. Produção de peças
+
+Crie um programa que leia:
+
+* quantidade de peças produzidas por hora;
+* quantidade de horas trabalhadas por dia;
+* quantidade de dias trabalhados.
+
+Depois, calcule o total de peças produzidas.
+
+---
+
+### 115. Pagamento por produção
+
+Crie um programa que leia:
+
+* quantidade de peças produzidas;
+* valor recebido por peça;
+* bônus fixo.
+
+Depois, calcule o pagamento total do funcionário.
+
+---
+
+### 116. Orçamento de pintura
+
+Crie um programa que leia:
+
+* largura da parede;
+* altura da parede;
+* preço do metro quadrado da pintura.
+
+Depois, calcule:
+
+* área da parede;
+* valor total do serviço.
+
+---
+
+### 117. Quantidade de tinta
+
+Crie um programa que leia:
+
+* largura da parede;
+* altura da parede;
+* rendimento da tinta em metros quadrados por litro.
+
+Depois, calcule:
+
+* área da parede;
+* quantidade de litros de tinta necessários.
+
+---
+
+### 118. Piso de uma sala
+
+Crie um programa que leia:
+
+* largura da sala;
+* comprimento da sala;
+* preço do metro quadrado do piso.
+
+Depois, calcule:
+
+* área da sala;
+* custo total do piso.
+
+---
+
+### 119. Rodapé de uma sala
+
+Crie um programa que leia:
+
+* largura da sala;
+* comprimento da sala;
+* preço do metro do rodapé.
+
+Depois, calcule:
+
+* perímetro da sala;
+* custo total do rodapé.
+
+---
+
+### 120. Volume de uma piscina
+
+Crie um programa que leia:
+
+* comprimento;
+* largura;
+* profundidade média.
+
+Depois, calcule o volume da piscina.
+
+Fórmula:
+
+`volume = comprimento * largura * profundidade`
+
+---
+
+### 121. Quantidade de água da piscina
+
+Crie um programa que leia o volume de uma piscina em metros cúbicos e converta para litros.
+
+Lembre-se:
+
+`1 metro cúbico = 1000 litros`
+
+---
+
+### 122. Caixa d'água
+
+Crie um programa que leia:
+
+* capacidade total da caixa d'água em litros;
+* quantidade já utilizada;
+* quantidade abastecida.
+
+Depois, calcule a quantidade final de água na caixa.
+
+---
+
+### 123. Preço por quilo
+
+Crie um programa que leia:
+
+* peso de um produto em quilos;
+* preço total pago.
+
+Depois, calcule o preço por quilo.
+
+---
+
+### 124. Preço total por peso
+
+Crie um programa que leia:
+
+* preço do quilo de um produto;
+* peso comprado.
+
+Depois, calcule o preço total da compra.
+
+---
+
+### 125. Receita de bolo
+
+Crie um programa que leia:
+
+* quantidade de bolos que deseja fazer;
+* quantidade de ovos usados em um bolo;
+* quantidade de xícaras de farinha usadas em um bolo.
+
+Depois, calcule o total de ovos e de xícaras de farinha necessários.
+
+---
+
+### 126. Festa de aniversário
+
+Crie um programa que leia:
+
+* quantidade de convidados;
+* quantidade de salgados por pessoa;
+* preço de cada salgado.
+
+Depois, calcule:
+
+* quantidade total de salgados;
+* valor total gasto com salgados.
+
+---
+
+### 127. Refrigerante para festa
+
+Crie um programa que leia:
+
+* quantidade de convidados;
+* consumo médio de refrigerante por pessoa em ml.
+
+Depois, calcule:
+
+* quantidade total em ml;
+* quantidade total em litros.
+
+---
+
+### 128. Compra para churrasco
+
+Crie um programa que leia:
+
+* quantidade de pessoas;
+* quantidade de carne por pessoa em gramas;
+* preço do quilo da carne.
+
+Depois, calcule:
+
+* quantidade total de carne em quilos;
+* valor total gasto.
+
+---
+
+### 129. Valor de ingresso em grupo
+
+Crie um programa que leia:
+
+* preço de um ingresso;
+* quantidade de pessoas;
+* valor da taxa de conveniência.
+
+Depois, calcule o valor total pago pelo grupo.
+
+---
+
+### 130. Loja de camisetas
+
+Crie um programa que leia:
+
+* preço de uma camiseta;
+* quantidade comprada;
+* valor do frete.
+
+Depois, calcule o total da compra.
+
+---
+
+### 131. Lucro de venda
+
+Crie um programa que leia:
+
+* preço de compra de um produto;
+* preço de venda;
+* quantidade vendida.
+
+Depois, calcule o lucro total.
+
+Fórmula:
+
+`lucro = (preco_venda - preco_compra) * quantidade`
+
+---
+
+### 132. Margem de lucro
+
+Crie um programa que leia:
+
+* preço de compra;
+* percentual de lucro desejado.
+
+Depois, calcule o preço de venda.
+
+Fórmula:
+
+`preco_venda = preco_compra + (preco_compra * percentual / 100)`
+
+---
+
+### 133. Caixa de loja
+
+Crie um programa que leia:
+
+* valor inicial do caixa;
+* total de vendas;
+* total de retiradas.
+
+Depois, calcule o valor final do caixa.
+
+---
+
+### 134. Conversão de moedas fictícia
+
+Crie um programa que leia:
+
+* valor em reais;
+* cotação de uma moeda estrangeira.
+
+Depois, calcule o valor convertido.
+
+Exemplo:
+
+`valor_convertido = reais / cotacao`
+
+---
+
+### 135. Parcelamento com entrada
+
+Crie um programa que leia:
+
+* valor total de uma compra;
+* valor da entrada;
+* quantidade de parcelas.
+
+Depois, calcule o valor de cada parcela.
+
+---
+
+### 136. Financiamento simples
+
+Crie um programa que leia:
+
+* valor financiado;
+* percentual de juros total;
+* quantidade de parcelas.
+
+Depois, calcule:
+
+* valor dos juros;
+* valor total com juros;
+* valor de cada parcela.
+
+---
+
+### 137. Rendimento de investimento
+
+Crie um programa que leia:
+
+* valor investido;
+* percentual de rendimento.
+
+Depois, calcule:
+
+* valor do rendimento;
+* valor final do investimento.
+
+---
+
+### 138. Economia mensal
+
+Crie um programa que leia:
+
+* valor que uma pessoa economiza por mês;
+* quantidade de meses.
+
+Depois, calcule o total economizado.
+
+---
+
+### 139. Meta financeira
+
+Crie um programa que leia:
+
+* valor da meta;
+* valor já economizado.
+
+Depois, calcule quanto ainda falta para atingir a meta.
+
+---
+
+### 140. Conversão de idade
+
+Crie um programa que leia a idade de uma pessoa em anos, meses e dias separados. Depois, calcule a idade aproximada apenas em dias.
+
+Considere:
+
+* 1 ano = 365 dias;
+* 1 mês = 30 dias.
+
+---
+
+### 141. Tempo em segundos
+
+Crie um programa que leia um tempo separado em horas, minutos e segundos. Depois, converta tudo para segundos.
+
+---
+
+### 142. Segundos para horas, minutos e segundos
+
+Crie um programa que leia uma quantidade total de segundos e converta para:
+
+* horas;
+* minutos;
+* segundos restantes.
+
+Dica:
+
+Use divisão inteira e resto da divisão.
+
+---
+
+### 143. Minutos para horas e minutos
+
+Crie um programa que leia uma quantidade total de minutos e converta para:
+
+* horas;
+* minutos restantes.
+
+---
+
+### 144. Cálculo de idade futura
+
+Crie um programa que leia:
+
+* idade atual de uma pessoa;
+* quantidade de anos no futuro.
+
+Depois, calcule a idade que a pessoa terá.
+
+---
+
+### 145. Diferença de idade
+
+Crie um programa que leia a idade de duas pessoas e calcule a diferença entre elas.
+
+Neste exercício, não é necessário verificar qual idade é maior.
+
+---
+
+### 146. Média de idade da família
+
+Crie um programa que leia a idade de quatro pessoas de uma família e calcule a média das idades.
+
+---
+
+### 147. Pontuação de jogo
+
+Crie um programa que leia:
+
+* quantidade de moedas coletadas;
+* quantidade de inimigos derrotados;
+* quantidade de bônus encontrados.
+
+Considere:
+
+* cada moeda vale 10 pontos;
+* cada inimigo derrotado vale 50 pontos;
+* cada bônus vale 100 pontos.
+
+Depois, calcule a pontuação final.
+
+---
+
+### 148. Vida final de personagem
+
+Crie um programa que leia:
+
+* vida inicial;
+* dano recebido;
+* cura recebida.
+
+Depois, calcule a vida final do personagem.
+
+---
+
+### 149. Experiência de personagem
+
+Crie um programa que leia:
+
+* experiência atual;
+* experiência ganha em uma missão;
+* bônus de experiência.
+
+Depois, calcule a experiência final.
+
+---
+
+### 150. Mini sistema de orçamento pessoal
+
+Crie um programa que leia:
+
+* salário mensal;
+* gasto com alimentação;
+* gasto com transporte;
+* gasto com moradia;
+* outros gastos.
+
+Depois, calcule:
+
+* total de gastos;
+* valor restante do salário;
+* percentual do salário que foi gasto.
+
+Fórmula do percentual gasto:
+
+`percentual = (total_gastos / salario) * 100`
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, leia o enunciado com atenção antes de começar a programar.
+
+Uma boa estratégia é seguir estes passos:
+
+1. Identificar quais dados o programa precisa receber.
+2. Criar uma variável para cada dado.
+3. Identificar qual cálculo precisa ser feito.
+4. Usar parênteses quando houver mais de uma operação.
+5. Mostrar o resultado de forma clara com `printf`.
+
+Exemplo de expressão composta:
+
+```c
+media = (nota1 * 2 + nota2 * 3) / 5;
+```
+
+O uso dos parênteses é importante para garantir que o cálculo aconteça na ordem correta.
+
+
+
+# Lista de Exercícios em C
+
+## Bloco 4 — `if` Simples
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar estruturas condicionais usando apenas o `if`.
+
+O foco é fazer o aluno entender que o `if` funciona como uma pergunta feita ao programa.
+
+Exemplo:
+
+```c
+if (idade >= 18) {
+    printf("Voce e maior de idade.");
+}
+```
+
+Nesse caso, a mensagem só será exibida se a condição for verdadeira.
+
+---
+
+## Exercícios
+
+### 151. Maior de idade
+
+Crie um programa que leia a idade de uma pessoa.
+Se a idade for maior ou igual a 18, exiba:
+
+`Você é maior de idade.`
+
+---
+
+### 152. Número positivo
+
+Crie um programa que leia um número inteiro.
+Se o número for maior que zero, exiba:
+
+`O número é positivo.`
+
+---
+
+### 153. Número negativo
+
+Crie um programa que leia um número inteiro.
+Se o número for menor que zero, exiba:
+
+`O número é negativo.`
+
+---
+
+### 154. Número igual a zero
+
+Crie um programa que leia um número inteiro.
+Se o número for igual a zero, exiba:
+
+`O número é zero.`
+
+---
+
+### 155. Nota maior ou igual a 60
+
+Crie um programa que leia a nota de um aluno.
+Se a nota for maior ou igual a 60, exiba:
+
+`Nota suficiente para aprovação.`
+
+---
+
+### 156. Temperatura alta
+
+Crie um programa que leia a temperatura atual.
+Se a temperatura for maior que 30, exiba:
+
+`Está calor.`
+
+---
+
+### 157. Temperatura baixa
+
+Crie um programa que leia a temperatura atual.
+Se a temperatura for menor que 15, exiba:
+
+`Está frio.`
+
+---
+
+### 158. Saldo positivo
+
+Crie um programa que leia o saldo de uma conta bancária.
+Se o saldo for maior que zero, exiba:
+
+`Conta com saldo positivo.`
+
+---
+
+### 159. Saldo zerado
+
+Crie um programa que leia o saldo de uma conta bancária.
+Se o saldo for igual a zero, exiba:
+
+`Conta sem saldo.`
+
+---
+
+### 160. Produto caro
+
+Crie um programa que leia o preço de um produto.
+Se o preço for maior que 100, exiba:
+
+`Produto caro.`
+
+---
+
+### 161. Produto barato
+
+Crie um programa que leia o preço de um produto.
+Se o preço for menor que 20, exiba:
+
+`Produto barato.`
+
+---
+
+### 162. Quantidade em estoque
+
+Crie um programa que leia a quantidade de um produto em estoque.
+Se a quantidade for maior que zero, exiba:
+
+`Produto disponível em estoque.`
+
+---
+
+### 163. Estoque zerado
+
+Crie um programa que leia a quantidade de um produto em estoque.
+Se a quantidade for igual a zero, exiba:
+
+`Produto esgotado.`
+
+---
+
+### 164. Velocidade acima de 80
+
+Crie um programa que leia a velocidade de um carro.
+Se a velocidade for maior que 80, exiba:
+
+`Velocidade acima do permitido.`
+
+---
+
+### 165. Altura mínima
+
+Crie um programa que leia a altura de uma pessoa.
+Se a altura for maior ou igual a 1.50, exiba:
+
+`Altura permitida para o brinquedo.`
+
+---
+
+### 166. Peso acima de 100 kg
+
+Crie um programa que leia o peso de uma pessoa.
+Se o peso for maior que 100, exiba:
+
+`Peso acima de 100 kg.`
+
+---
+
+### 167. Senha numérica simples
+
+Crie um programa que leia uma senha numérica.
+Se a senha for igual a 1234, exiba:
+
+`Senha correta.`
+
+---
+
+### 168. Código de acesso
+
+Crie um programa que leia um código de acesso.
+Se o código for igual a 2026, exiba:
+
+`Acesso liberado.`
+
+---
+
+### 169. Número par
+
+Crie um programa que leia um número inteiro.
+Se o resto da divisão por 2 for igual a zero, exiba:
+
+`Número par.`
+
+Dica:
+
+Use o operador `%`.
+
+---
+
+### 170. Número ímpar
+
+Crie um programa que leia um número inteiro.
+Se o resto da divisão por 2 for diferente de zero, exiba:
+
+`Número ímpar.`
+
+---
+
+### 171. Divisível por 5
+
+Crie um programa que leia um número inteiro.
+Se o número for divisível por 5, exiba:
+
+`O número é divisível por 5.`
+
+---
+
+### 172. Divisível por 10
+
+Crie um programa que leia um número inteiro.
+Se o número for divisível por 10, exiba:
+
+`O número é divisível por 10.`
+
+---
+
+### 173. Ano igual a 2026
+
+Crie um programa que leia um ano.
+Se o ano for igual a 2026, exiba:
+
+`Ano atual informado.`
+
+---
+
+### 174. Letra A
+
+Crie um programa que leia uma letra.
+Se a letra for igual a `A`, exiba:
+
+`Você digitou a letra A.`
+
+---
+
+### 175. Letra S
+
+Crie um programa que leia uma letra.
+Se a letra for igual a `S`, exiba:
+
+`Você escolheu sim.`
+
+---
+
+### 176. Letra N
+
+Crie um programa que leia uma letra.
+Se a letra for igual a `N`, exiba:
+
+`Você escolheu não.`
+
+---
+
+### 177. Verificação de nota máxima
+
+Crie um programa que leia uma nota.
+Se a nota for igual a 100, exiba:
+
+`Nota máxima alcançada.`
+
+---
+
+### 178. Nota abaixo de 60
+
+Crie um programa que leia uma nota.
+Se a nota for menor que 60, exiba:
+
+`Nota abaixo da média.`
+
+---
+
+### 179. Temperatura de congelamento
+
+Crie um programa que leia uma temperatura.
+Se a temperatura for menor ou igual a 0, exiba:
+
+`Temperatura de congelamento.`
+
+---
+
+### 180. Temperatura de fervura
+
+Crie um programa que leia uma temperatura.
+Se a temperatura for maior ou igual a 100, exiba:
+
+`Temperatura de fervura da água.`
+
+---
+
+### 181. Login de administrador
+
+Crie um programa que leia um código de usuário.
+Se o código for igual a 1, exiba:
+
+`Usuário administrador.`
+
+---
+
+### 182. Produto com promoção
+
+Crie um programa que leia o preço de um produto.
+Se o preço for menor que 50, exiba:
+
+`Produto em promoção.`
+
+---
+
+### 183. Compra com frete grátis
+
+Crie um programa que leia o valor de uma compra.
+Se o valor for maior ou igual a 200, exiba:
+
+`Compra com frete grátis.`
+
+---
+
+### 184. Quantidade mínima para atacado
+
+Crie um programa que leia a quantidade comprada de um produto.
+Se a quantidade for maior ou igual a 10, exiba:
+
+`Compra em quantidade de atacado.`
+
+---
+
+### 185. Funcionário com bônus
+
+Crie um programa que leia a quantidade de vendas de um funcionário.
+Se a quantidade for maior que 20, exiba:
+
+`Funcionário receberá bônus.`
+
+---
+
+### 186. Aluno com presença suficiente
+
+Crie um programa que leia a frequência de um aluno em porcentagem.
+Se a frequência for maior ou igual a 75, exiba:
+
+`Frequência suficiente.`
+
+---
+
+### 187. Aluno com baixa frequência
+
+Crie um programa que leia a frequência de um aluno em porcentagem.
+Se a frequência for menor que 75, exiba:
+
+`Frequência insuficiente.`
+
+---
+
+### 188. Idade para votar
+
+Crie um programa que leia a idade de uma pessoa.
+Se a idade for maior ou igual a 16, exiba:
+
+`Você já pode votar.`
+
+---
+
+### 189. Idade para carteira de motorista
+
+Crie um programa que leia a idade de uma pessoa.
+Se a idade for maior ou igual a 18, exiba:
+
+`Você pode tirar carteira de motorista.`
+
+---
+
+### 190. Número maior que 100
+
+Crie um programa que leia um número inteiro.
+Se o número for maior que 100, exiba:
+
+`Número maior que 100.`
+
+---
+
+### 191. Número menor que 100
+
+Crie um programa que leia um número inteiro.
+Se o número for menor que 100, exiba:
+
+`Número menor que 100.`
+
+---
+
+### 192. Número igual a 100
+
+Crie um programa que leia um número inteiro.
+Se o número for igual a 100, exiba:
+
+`Número igual a 100.`
+
+---
+
+### 193. Verificação de desconto
+
+Crie um programa que leia o percentual de desconto de um produto.
+Se o desconto for maior que zero, exiba:
+
+`Produto possui desconto.`
+
+---
+
+### 194. Verificação de acréscimo
+
+Crie um programa que leia o percentual de acréscimo em uma compra.
+Se o acréscimo for maior que zero, exiba:
+
+`Compra possui acréscimo.`
+
+---
+
+### 195. Verificação de multa
+
+Crie um programa que leia o valor de uma multa.
+Se a multa for maior que zero, exiba:
+
+`Existe multa a pagar.`
+
+---
+
+### 196. Conta vencida
+
+Crie um programa que leia um número representando a situação de uma conta:
+
+* digite `1` para conta vencida;
+* digite `0` para conta não vencida.
+
+Se o número digitado for igual a 1, exiba:
+
+`Conta vencida.`
+
+---
+
+### 197. Produto perecível
+
+Crie um programa que leia um número representando o tipo do produto:
+
+* digite `1` para perecível;
+* digite `0` para não perecível.
+
+Se o número digitado for igual a 1, exiba:
+
+`Produto perecível.`
+
+---
+
+### 198. Presença confirmada
+
+Crie um programa que leia uma letra:
+
+* `S` para presença confirmada.
+
+Se a letra digitada for igual a `S`, exiba:
+
+`Presença confirmada.`
+
+---
+
+### 199. Sistema ligado
+
+Crie um programa que leia um número:
+
+* `1` para ligado;
+* `0` para desligado.
+
+Se o número digitado for igual a 1, exiba:
+
+`Sistema ligado.`
+
+---
+
+### 200. Alerta geral
+
+Crie um programa que leia um número representando o nível de alerta.
+
+Se o nível de alerta for maior ou igual a 5, exiba:
+
+`Alerta ativado.`
+
+Depois, independentemente do resultado, exiba:
+
+`Verificação finalizada.`
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, todos os exercícios devem usar apenas `if`, sem `else`.
+
+Exemplo:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int idade;
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    if (idade >= 18) {
+        printf("Voce e maior de idade.");
+    }
+
+    return 0;
+}
+```
+
+Atenção aos operadores relacionais:
+
+* `>` maior que;
+* `<` menor que;
+* `>=` maior ou igual;
+* `<=` menor ou igual;
+* `==` igual;
+* `!=` diferente.
+
+Lembre-se: em C, para comparar igualdade usamos `==`, não `=`.
+
+
+# Lista de Exercícios em C
+
+## Bloco 5 — `if` e `else`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar estruturas condicionais usando `if` e `else`.
+
+A estrutura `if` e `else` permite que o programa tome uma decisão com dois caminhos possíveis:
+
+* um caminho quando a condição é verdadeira;
+* outro caminho quando a condição é falsa.
+
+Exemplo:
+
+```c
+if (idade >= 18) {
+    printf("Maior de idade.");
+} else {
+    printf("Menor de idade.");
+}
+```
+
+---
+
+## Exercícios
+
+### 201. Maior ou menor de idade
+
+Crie um programa que leia a idade de uma pessoa.
+
+Se a idade for maior ou igual a 18, exiba:
+
+`Maior de idade.`
+
+Senão, exiba:
+
+`Menor de idade.`
+
+---
+
+### 202. Número positivo ou não positivo
+
+Crie um programa que leia um número inteiro.
+
+Se o número for maior que zero, exiba:
+
+`Número positivo.`
+
+Senão, exiba:
+
+`Número não positivo.`
+
+---
+
+### 203. Número negativo ou não negativo
+
+Crie um programa que leia um número inteiro.
+
+Se o número for menor que zero, exiba:
+
+`Número negativo.`
+
+Senão, exiba:
+
+`Número não negativo.`
+
+---
+
+### 204. Número igual a zero ou diferente de zero
+
+Crie um programa que leia um número inteiro.
+
+Se o número for igual a zero, exiba:
+
+`Número igual a zero.`
+
+Senão, exiba:
+
+`Número diferente de zero.`
+
+---
+
+### 205. Aprovação por nota
+
+Crie um programa que leia a nota de um aluno.
+
+Se a nota for maior ou igual a 60, exiba:
+
+`Aluno aprovado.`
+
+Senão, exiba:
+
+`Aluno reprovado.`
+
+---
+
+### 206. Produto disponível
+
+Crie um programa que leia a quantidade de um produto em estoque.
+
+Se a quantidade for maior que zero, exiba:
+
+`Produto disponível.`
+
+Senão, exiba:
+
+`Produto esgotado.`
+
+---
+
+### 207. Saldo bancário
+
+Crie um programa que leia o saldo de uma conta.
+
+Se o saldo for maior que zero, exiba:
+
+`Conta com saldo positivo.`
+
+Senão, exiba:
+
+`Conta sem saldo positivo.`
+
+---
+
+### 208. Senha numérica
+
+Crie um programa que leia uma senha numérica.
+
+Se a senha for igual a `1234`, exiba:
+
+`Senha correta.`
+
+Senão, exiba:
+
+`Senha incorreta.`
+
+---
+
+### 209. Código de acesso
+
+Crie um programa que leia um código de acesso.
+
+Se o código for igual a `2026`, exiba:
+
+`Acesso liberado.`
+
+Senão, exiba:
+
+`Acesso negado.`
+
+---
+
+### 210. Número par ou ímpar
+
+Crie um programa que leia um número inteiro.
+
+Se o número for par, exiba:
+
+`Número par.`
+
+Senão, exiba:
+
+`Número ímpar.`
+
+Dica:
+
+Use o operador `%`.
+
+---
+
+### 211. Divisível por 5
+
+Crie um programa que leia um número inteiro.
+
+Se o número for divisível por 5, exiba:
+
+`Divisível por 5.`
+
+Senão, exiba:
+
+`Não é divisível por 5.`
+
+---
+
+### 212. Divisível por 10
+
+Crie um programa que leia um número inteiro.
+
+Se o número for divisível por 10, exiba:
+
+`Divisível por 10.`
+
+Senão, exiba:
+
+`Não é divisível por 10.`
+
+---
+
+### 213. Temperatura agradável
+
+Crie um programa que leia a temperatura atual.
+
+Se a temperatura estiver maior ou igual a 20, exiba:
+
+`Temperatura agradável ou quente.`
+
+Senão, exiba:
+
+`Temperatura fria.`
+
+---
+
+### 214. Temperatura acima de 30
+
+Crie um programa que leia a temperatura atual.
+
+Se a temperatura for maior que 30, exiba:
+
+`Está calor.`
+
+Senão, exiba:
+
+`Não está calor.`
+
+---
+
+### 215. Produto caro ou barato
+
+Crie um programa que leia o preço de um produto.
+
+Se o preço for maior ou igual a 100, exiba:
+
+`Produto caro.`
+
+Senão, exiba:
+
+`Produto barato.`
+
+---
+
+### 216. Frete grátis
+
+Crie um programa que leia o valor de uma compra.
+
+Se o valor for maior ou igual a 200, exiba:
+
+`Frete grátis liberado.`
+
+Senão, exiba:
+
+`Frete será cobrado.`
+
+---
+
+### 217. Compra em atacado
+
+Crie um programa que leia a quantidade de produtos comprados.
+
+Se a quantidade for maior ou igual a 10, exiba:
+
+`Compra em atacado.`
+
+Senão, exiba:
+
+`Compra no varejo.`
+
+---
+
+### 218. Bônus de funcionário
+
+Crie um programa que leia a quantidade de vendas de um funcionário.
+
+Se a quantidade for maior que 20, exiba:
+
+`Funcionário receberá bônus.`
+
+Senão, exiba:
+
+`Funcionário não receberá bônus.`
+
+---
+
+### 219. Frequência escolar
+
+Crie um programa que leia a frequência de um aluno em porcentagem.
+
+Se a frequência for maior ou igual a 75, exiba:
+
+`Frequência suficiente.`
+
+Senão, exiba:
+
+`Frequência insuficiente.`
+
+---
+
+### 220. Pode votar
+
+Crie um programa que leia a idade de uma pessoa.
+
+Se a idade for maior ou igual a 16, exiba:
+
+`Pode votar.`
+
+Senão, exiba:
+
+`Ainda não pode votar.`
+
+---
+
+### 221. Pode tirar CNH
+
+Crie um programa que leia a idade de uma pessoa.
+
+Se a idade for maior ou igual a 18, exiba:
+
+`Pode tirar carteira de motorista.`
+
+Senão, exiba:
+
+`Ainda não pode tirar carteira de motorista.`
+
+---
+
+### 222. Altura para brinquedo
+
+Crie um programa que leia a altura de uma pessoa.
+
+Se a altura for maior ou igual a 1.50, exiba:
+
+`Entrada permitida no brinquedo.`
+
+Senão, exiba:
+
+`Entrada não permitida no brinquedo.`
+
+---
+
+### 223. Verificação de login por código
+
+Crie um programa que leia um código de usuário.
+
+Se o código for igual a `1`, exiba:
+
+`Usuário administrador.`
+
+Senão, exiba:
+
+`Usuário comum.`
+
+---
+
+### 224. Letra S ou outra letra
+
+Crie um programa que leia uma letra.
+
+Se a letra for igual a `S`, exiba:
+
+`Você escolheu sim.`
+
+Senão, exiba:
+
+`Você não escolheu sim.`
+
+---
+
+### 225. Letra N ou outra letra
+
+Crie um programa que leia uma letra.
+
+Se a letra for igual a `N`, exiba:
+
+`Você escolheu não.`
+
+Senão, exiba:
+
+`Você não escolheu não.`
+
+---
+
+### 226. Presença confirmada
+
+Crie um programa que leia uma letra.
+
+Se a letra for igual a `S`, exiba:
+
+`Presença confirmada.`
+
+Senão, exiba:
+
+`Presença não confirmada.`
+
+---
+
+### 227. Sistema ligado ou desligado
+
+Crie um programa que leia um número:
+
+* `1` para ligado;
+* `0` para desligado.
+
+Se o número for igual a `1`, exiba:
+
+`Sistema ligado.`
+
+Senão, exiba:
+
+`Sistema desligado.`
+
+---
+
+### 228. Conta vencida
+
+Crie um programa que leia um número:
+
+* `1` para conta vencida;
+* `0` para conta não vencida.
+
+Se o número for igual a `1`, exiba:
+
+`Conta vencida.`
+
+Senão, exiba:
+
+`Conta dentro do prazo.`
+
+---
+
+### 229. Produto perecível
+
+Crie um programa que leia um número:
+
+* `1` para produto perecível;
+* `0` para produto não perecível.
+
+Se o número for igual a `1`, exiba:
+
+`Produto perecível.`
+
+Senão, exiba:
+
+`Produto não perecível.`
+
+---
+
+### 230. Alerta de estoque baixo
+
+Crie um programa que leia a quantidade de produtos em estoque.
+
+Se a quantidade for menor que 5, exiba:
+
+`Estoque baixo.`
+
+Senão, exiba:
+
+`Estoque suficiente.`
+
+---
+
+### 231. Verificação de multa
+
+Crie um programa que leia a velocidade de um carro.
+
+Se a velocidade for maior que 80, exiba:
+
+`Motorista multado.`
+
+Senão, exiba:
+
+`Velocidade dentro do permitido.`
+
+---
+
+### 232. Nota máxima
+
+Crie um programa que leia a nota de um aluno.
+
+Se a nota for igual a 100, exiba:
+
+`Nota máxima.`
+
+Senão, exiba:
+
+`Nota diferente da máxima.`
+
+---
+
+### 233. Número maior que 100
+
+Crie um programa que leia um número inteiro.
+
+Se o número for maior que 100, exiba:
+
+`Número maior que 100.`
+
+Senão, exiba:
+
+`Número menor ou igual a 100.`
+
+---
+
+### 234. Número menor que 100
+
+Crie um programa que leia um número inteiro.
+
+Se o número for menor que 100, exiba:
+
+`Número menor que 100.`
+
+Senão, exiba:
+
+`Número maior ou igual a 100.`
+
+---
+
+### 235. Verificação de desconto
+
+Crie um programa que leia o percentual de desconto de um produto.
+
+Se o desconto for maior que zero, exiba:
+
+`Produto com desconto.`
+
+Senão, exiba:
+
+`Produto sem desconto.`
+
+---
+
+### 236. Verificação de acréscimo
+
+Crie um programa que leia o percentual de acréscimo de uma compra.
+
+Se o acréscimo for maior que zero, exiba:
+
+`Compra com acréscimo.`
+
+Senão, exiba:
+
+`Compra sem acréscimo.`
+
+---
+
+### 237. Temperatura de congelamento
+
+Crie um programa que leia uma temperatura.
+
+Se a temperatura for menor ou igual a 0, exiba:
+
+`Água pode congelar.`
+
+Senão, exiba:
+
+`Água não congela nessa temperatura.`
+
+---
+
+### 238. Temperatura de fervura
+
+Crie um programa que leia uma temperatura.
+
+Se a temperatura for maior ou igual a 100, exiba:
+
+`Água pode ferver.`
+
+Senão, exiba:
+
+`Água ainda não atingiu a temperatura de fervura.`
+
+---
+
+### 239. Ano atual
+
+Crie um programa que leia um ano.
+
+Se o ano for igual a 2026, exiba:
+
+`Ano atual informado.`
+
+Senão, exiba:
+
+`Ano diferente de 2026.`
+
+---
+
+### 240. Ano passado ou futuro simples
+
+Crie um programa que leia um ano.
+
+Se o ano for menor que 2026, exiba:
+
+`Ano anterior a 2026.`
+
+Senão, exiba:
+
+`Ano igual ou posterior a 2026.`
+
+---
+
+### 241. Pagamento suficiente
+
+Crie um programa que leia:
+
+* valor da compra;
+* valor pago pelo cliente.
+
+Se o valor pago for maior ou igual ao valor da compra, exiba:
+
+`Pagamento suficiente.`
+
+Senão, exiba:
+
+`Pagamento insuficiente.`
+
+---
+
+### 242. Troco ou falta de dinheiro
+
+Crie um programa que leia:
+
+* valor da compra;
+* valor pago pelo cliente.
+
+Se o valor pago for maior ou igual ao valor da compra, calcule e mostre o troco.
+
+Senão, calcule e mostre quanto ainda falta pagar.
+
+---
+
+### 243. Média escolar com resultado
+
+Crie um programa que leia duas notas e calcule a média.
+
+Se a média for maior ou igual a 60, exiba:
+
+`Aluno aprovado.`
+
+Senão, exiba:
+
+`Aluno reprovado.`
+
+Também exiba a média calculada.
+
+---
+
+### 244. Salário com bônus ou sem bônus
+
+Crie um programa que leia:
+
+* salário do funcionário;
+* quantidade de vendas.
+
+Se a quantidade de vendas for maior que 20, calcule e mostre o salário com bônus de R$ 200,00.
+
+Senão, mostre o salário sem bônus.
+
+---
+
+### 245. Produto com desconto condicional
+
+Crie um programa que leia o preço de um produto.
+
+Se o preço for maior ou igual a 100, calcule e mostre o preço com 10% de desconto.
+
+Senão, mostre o preço sem desconto.
+
+---
+
+### 246. Frete conforme valor da compra
+
+Crie um programa que leia o valor de uma compra.
+
+Se o valor for maior ou igual a 200, exiba o valor final sem frete.
+
+Senão, acrescente R$ 20,00 de frete e mostre o valor final.
+
+---
+
+### 247. Conta de energia com taxa
+
+Crie um programa que leia o consumo de energia em kWh.
+
+Se o consumo for maior que 100, calcule o valor da conta considerando R$ 0,80 por kWh.
+
+Senão, calcule considerando R$ 0,60 por kWh.
+
+Mostre o valor final da conta.
+
+---
+
+### 248. Ingresso com meia-entrada
+
+Crie um programa que leia:
+
+* valor do ingresso;
+* idade da pessoa.
+
+Se a idade for menor que 18, calcule e mostre o valor da meia-entrada.
+
+Senão, mostre o valor inteiro do ingresso.
+
+---
+
+### 249. Desconto para idosos
+
+Crie um programa que leia:
+
+* valor de uma compra;
+* idade do cliente.
+
+Se a idade for maior ou igual a 60, aplique 15% de desconto.
+
+Senão, mantenha o valor original.
+
+Mostre o valor final da compra.
+
+---
+
+### 250. Mini caixa eletrônico
+
+Crie um programa que leia:
+
+* saldo disponível;
+* valor do saque.
+
+Se o valor do saque for menor ou igual ao saldo disponível, calcule e mostre o novo saldo.
+
+Senão, exiba:
+
+`Saldo insuficiente para saque.`
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, todos os exercícios devem usar `if` e `else`.
+
+A estrutura básica é:
+
+```c
+if (condicao) {
+    // comandos se a condição for verdadeira
+} else {
+    // comandos se a condição for falsa
+}
+```
+
+Exemplo completo:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int idade;
+
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+
+    if (idade >= 18) {
+        printf("Maior de idade.");
+    } else {
+        printf("Menor de idade.");
+    }
+
+    return 0;
+}
+```
+
+### Atenção
+
+Use operadores relacionais corretamente:
+
+* `>` maior que;
+* `<` menor que;
+* `>=` maior ou igual;
+* `<=` menor ou igual;
+* `==` igual;
+* `!=` diferente.
+
+Use `==` para comparar valores.
+
+Exemplo correto:
+
+```c
+if (senha == 1234) {
+    printf("Senha correta.");
+}
+```
+
+Exemplo incorreto:
+
+```c
+if (senha = 1234) {
+    printf("Senha correta.");
+}
+```
+
+No exemplo incorreto, o símbolo `=` está atribuindo valor, não comparando.
+
+
+# Lista de Exercícios em C
+
+## Bloco 6 — `else if`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar estruturas condicionais usando `if`, `else if` e `else`.
+
+O objetivo é resolver problemas com mais de duas possibilidades, como:
+
+* classificação de notas;
+* classificação de idade;
+* menus de opções;
+* níveis de acesso;
+* faixas de preço;
+* categorias de produtos;
+* situações do cotidiano;
+* interpretação de códigos numéricos.
+
+---
+
+## Exercícios
+
+### 251. Classificação de idade simples
+
+Crie um programa que leia a idade de uma pessoa e classifique da seguinte forma:
+
+* menor que 12: `Criança`;
+* de 12 até 17: `Adolescente`;
+* de 18 até 59: `Adulto`;
+* 60 ou mais: `Idoso`.
+
+---
+
+### 252. Classificação de nota escolar
+
+Crie um programa que leia a nota de um aluno e classifique:
+
+* nota menor que 60: `Reprovado`;
+* nota de 60 até 79: `Aprovado`;
+* nota de 80 até 89: `Muito bom`;
+* nota de 90 até 100: `Excelente`.
+
+---
+
+### 253. Conceito por média
+
+Crie um programa que leia a média de um aluno e mostre o conceito:
+
+* menor que 50: `Conceito D`;
+* de 50 até 69: `Conceito C`;
+* de 70 até 89: `Conceito B`;
+* de 90 até 100: `Conceito A`.
+
+---
+
+### 254. Temperatura do ambiente
+
+Crie um programa que leia a temperatura atual e classifique:
+
+* menor que 15: `Frio`;
+* de 15 até 25: `Agradável`;
+* de 26 até 35: `Quente`;
+* maior que 35: `Muito quente`.
+
+---
+
+### 255. Nível de bateria
+
+Crie um programa que leia o percentual de bateria de um celular e mostre:
+
+* menor que 20: `Bateria baixa`;
+* de 20 até 49: `Bateria moderada`;
+* de 50 até 89: `Bateria boa`;
+* de 90 até 100: `Bateria cheia`.
+
+---
+
+### 256. Faixa de preço de produto
+
+Crie um programa que leia o preço de um produto e classifique:
+
+* menor que 20: `Produto barato`;
+* de 20 até 99.99: `Produto com preço médio`;
+* de 100 até 499.99: `Produto caro`;
+* 500 ou mais: `Produto muito caro`.
+
+---
+
+### 257. Classificação de velocidade
+
+Crie um programa que leia a velocidade de um veículo e classifique:
+
+* até 40 km/h: `Velocidade baixa`;
+* de 41 até 80 km/h: `Velocidade normal`;
+* de 81 até 120 km/h: `Velocidade alta`;
+* acima de 120 km/h: `Velocidade muito alta`.
+
+---
+
+### 258. Nível de estoque
+
+Crie um programa que leia a quantidade de produtos em estoque e classifique:
+
+* igual a 0: `Estoque esgotado`;
+* de 1 até 9: `Estoque baixo`;
+* de 10 até 49: `Estoque médio`;
+* 50 ou mais: `Estoque alto`.
+
+---
+
+### 259. Menu de opções simples
+
+Crie um programa que mostre o seguinte menu:
+
+`1 - Cadastrar`
+`2 - Listar`
+`3 - Atualizar`
+`4 - Excluir`
+
+Leia a opção escolhida e exiba a mensagem correspondente:
+
+* 1: `Cadastrar selecionado`;
+* 2: `Listar selecionado`;
+* 3: `Atualizar selecionado`;
+* 4: `Excluir selecionado`;
+* qualquer outro valor: `Opção inválida`.
+
+---
+
+### 260. Menu de operações matemáticas
+
+Crie um programa que leia dois números e depois leia uma opção:
+
+`1 - Somar`
+`2 - Subtrair`
+`3 - Multiplicar`
+`4 - Dividir`
+
+De acordo com a opção escolhida, mostre o resultado da operação.
+
+Se a opção for inválida, exiba:
+
+`Opção inválida.`
+
+---
+
+### 261. Dia da semana por número
+
+Crie um programa que leia um número de 1 a 7 e mostre o dia correspondente:
+
+* 1: `Domingo`;
+* 2: `Segunda-feira`;
+* 3: `Terça-feira`;
+* 4: `Quarta-feira`;
+* 5: `Quinta-feira`;
+* 6: `Sexta-feira`;
+* 7: `Sábado`.
+
+Para qualquer outro número, mostre:
+
+`Dia inválido.`
+
+---
+
+### 262. Mês do ano por número
+
+Crie um programa que leia um número de 1 a 12 e mostre o mês correspondente.
+
+Para qualquer número fora desse intervalo, mostre:
+
+`Mês inválido.`
+
+---
+
+### 263. Turno de estudo
+
+Crie um programa que leia uma letra representando o turno:
+
+* `M`: matutino;
+* `V`: vespertino;
+* `N`: noturno.
+
+Depois, exiba:
+
+* `Bom dia`;
+* `Boa tarde`;
+* `Boa noite`.
+
+Para outra letra, exiba:
+
+`Turno inválido.`
+
+---
+
+### 264. Classificação de IMC
+
+Crie um programa que leia o peso e a altura de uma pessoa, calcule o IMC e classifique:
+
+* menor que 18.5: `Abaixo do peso`;
+* de 18.5 até 24.9: `Peso normal`;
+* de 25 até 29.9: `Sobrepeso`;
+* 30 ou mais: `Obesidade`.
+
+---
+
+### 265. Nível de acesso
+
+Crie um programa que leia um código de usuário e mostre o nível de acesso:
+
+* 1: `Administrador`;
+* 2: `Professor`;
+* 3: `Aluno`;
+* 4: `Visitante`;
+* outro código: `Usuário inválido`.
+
+---
+
+### 266. Classificação de salário
+
+Crie um programa que leia o salário de uma pessoa e classifique:
+
+* menor que 1500: `Salário baixo`;
+* de 1500 até 2999.99: `Salário médio`;
+* de 3000 até 5999.99: `Salário bom`;
+* 6000 ou mais: `Salário alto`.
+
+---
+
+### 267. Nível de experiência profissional
+
+Crie um programa que leia a quantidade de anos de experiência de um profissional e classifique:
+
+* 0 anos: `Iniciante`;
+* de 1 até 2 anos: `Júnior`;
+* de 3 até 5 anos: `Pleno`;
+* mais de 5 anos: `Sênior`.
+
+---
+
+### 268. Categoria de produto
+
+Crie um programa que leia um código de categoria:
+
+* 1: `Alimento`;
+* 2: `Limpeza`;
+* 3: `Eletrônico`;
+* 4: `Vestuário`;
+* 5: `Brinquedo`.
+
+Para qualquer outro código, exiba:
+
+`Categoria inválida.`
+
+---
+
+### 269. Tipo de combustível
+
+Crie um programa que leia uma letra representando o combustível:
+
+* `G`: gasolina;
+* `A`: álcool;
+* `D`: diesel;
+* `E`: elétrico.
+
+Mostre o tipo correspondente ou `Combustível inválido`.
+
+---
+
+### 270. Classificação de senha
+
+Crie um programa que leia o tamanho de uma senha, em quantidade de caracteres, e classifique:
+
+* menor que 6: `Senha fraca`;
+* de 6 até 9: `Senha média`;
+* de 10 até 15: `Senha forte`;
+* maior que 15: `Senha muito forte`.
+
+---
+
+### 271. Faixa etária para cinema
+
+Crie um programa que leia a idade de uma pessoa e informe a classificação de filme permitida:
+
+* menor que 10: `Pode assistir filmes livres`;
+* de 10 até 11: `Pode assistir filmes até 10 anos`;
+* de 12 até 13: `Pode assistir filmes até 12 anos`;
+* de 14 até 15: `Pode assistir filmes até 14 anos`;
+* de 16 até 17: `Pode assistir filmes até 16 anos`;
+* 18 ou mais: `Pode assistir qualquer classificação`.
+
+---
+
+### 272. Nota de avaliação de aplicativo
+
+Crie um programa que leia uma nota de 1 a 5 e mostre:
+
+* 1: `Muito ruim`;
+* 2: `Ruim`;
+* 3: `Regular`;
+* 4: `Bom`;
+* 5: `Excelente`.
+
+Para outra nota, exiba:
+
+`Nota inválida.`
+
+---
+
+### 273. Prioridade de chamado técnico
+
+Crie um programa que leia um número de prioridade:
+
+* 1: `Baixa prioridade`;
+* 2: `Prioridade normal`;
+* 3: `Alta prioridade`;
+* 4: `Urgente`;
+* 5: `Emergência`.
+
+Para outro número, exiba:
+
+`Prioridade inválida.`
+
+---
+
+### 274. Nível de alerta
+
+Crie um programa que leia o nível de alerta de 0 a 5 e mostre:
+
+* 0: `Sem alerta`;
+* 1: `Atenção`;
+* 2: `Cuidado`;
+* 3: `Perigo moderado`;
+* 4: `Perigo alto`;
+* 5: `Emergência`.
+
+Para outro valor, exiba:
+
+`Nível inválido.`
+
+---
+
+### 275. Plano de internet
+
+Crie um programa que leia um código de plano:
+
+* 1: `Plano Básico - 100 Mbps`;
+* 2: `Plano Intermediário - 300 Mbps`;
+* 3: `Plano Avançado - 600 Mbps`;
+* 4: `Plano Premium - 1 Gbps`.
+
+Para outro código, exiba:
+
+`Plano inválido.`
+
+---
+
+### 276. Conversão de temperatura por menu
+
+Crie um programa que leia uma temperatura e depois leia uma opção:
+
+`1 - Celsius para Fahrenheit`
+`2 - Fahrenheit para Celsius`
+`3 - Celsius para Kelvin`
+
+Execute a conversão escolhida.
+
+Se a opção for inválida, exiba:
+
+`Opção inválida.`
+
+---
+
+### 277. Calculadora de área por menu
+
+Crie um programa que leia uma opção:
+
+`1 - Área do quadrado`
+`2 - Área do retângulo`
+`3 - Área do triângulo`
+`4 - Área do círculo`
+
+Depois, peça os dados necessários e calcule a área escolhida.
+
+Se a opção for inválida, exiba:
+
+`Opção inválida.`
+
+---
+
+### 278. Escolha de lanche
+
+Crie um programa que leia o código de um lanche:
+
+* 1: `Hambúrguer`;
+* 2: `Pizza`;
+* 3: `Cachorro-quente`;
+* 4: `Pastel`;
+* 5: `Sanduíche natural`.
+
+Para outro código, exiba:
+
+`Lanche inválido.`
+
+---
+
+### 279. Preço de lanche por código
+
+Crie um programa que leia o código de um lanche e mostre o preço:
+
+* 1: hambúrguer — R$ 15,00;
+* 2: pizza — R$ 12,00;
+* 3: cachorro-quente — R$ 10,00;
+* 4: pastel — R$ 8,00;
+* 5: sanduíche natural — R$ 13,00.
+
+Para outro código, exiba:
+
+`Código inválido.`
+
+---
+
+### 280. Pedido com quantidade
+
+Crie um programa que leia:
+
+* código de um lanche;
+* quantidade desejada.
+
+Use a tabela:
+
+* 1: hambúrguer — R$ 15,00;
+* 2: pizza — R$ 12,00;
+* 3: cachorro-quente — R$ 10,00;
+* 4: pastel — R$ 8,00;
+* 5: sanduíche natural — R$ 13,00.
+
+Depois, calcule o valor total do pedido.
+
+Se o código for inválido, exiba:
+
+`Código inválido.`
+
+---
+
+### 281. Desconto por faixa de compra
+
+Crie um programa que leia o valor de uma compra e aplique desconto conforme a faixa:
+
+* menor que R$ 100,00: sem desconto;
+* de R$ 100,00 até R$ 199,99: 5% de desconto;
+* de R$ 200,00 até R$ 499,99: 10% de desconto;
+* R$ 500,00 ou mais: 15% de desconto.
+
+Mostre o valor final da compra.
+
+---
+
+### 282. Frete por região
+
+Crie um programa que leia o código da região:
+
+* 1: Sudeste — R$ 20,00;
+* 2: Sul — R$ 25,00;
+* 3: Centro-Oeste — R$ 30,00;
+* 4: Nordeste — R$ 35,00;
+* 5: Norte — R$ 40,00.
+
+Para outro código, exiba:
+
+`Região inválida.`
+
+---
+
+### 283. Compra com frete por região
+
+Crie um programa que leia:
+
+* valor da compra;
+* código da região.
+
+Use a tabela de frete:
+
+* 1: Sudeste — R$ 20,00;
+* 2: Sul — R$ 25,00;
+* 3: Centro-Oeste — R$ 30,00;
+* 4: Nordeste — R$ 35,00;
+* 5: Norte — R$ 40,00.
+
+Depois, calcule o valor final da compra com frete.
+
+Se a região for inválida, exiba:
+
+`Região inválida.`
+
+---
+
+### 284. Plano de academia
+
+Crie um programa que leia o código do plano:
+
+* 1: Mensal — R$ 100,00;
+* 2: Trimestral — R$ 270,00;
+* 3: Semestral — R$ 500,00;
+* 4: Anual — R$ 900,00.
+
+Para outro código, exiba:
+
+`Plano inválido.`
+
+---
+
+### 285. Classificação de produto por validade
+
+Crie um programa que leia a quantidade de dias restantes para o vencimento de um produto e classifique:
+
+* menor que 0: `Produto vencido`;
+* igual a 0: `Vence hoje`;
+* de 1 até 7: `Vencimento próximo`;
+* de 8 até 30: `Validade média`;
+* acima de 30: `Validade longa`.
+
+---
+
+### 286. Faixa de consumo de energia
+
+Crie um programa que leia o consumo mensal de energia em kWh e classifique:
+
+* até 50: `Consumo baixo`;
+* de 51 até 150: `Consumo moderado`;
+* de 151 até 300: `Consumo alto`;
+* acima de 300: `Consumo muito alto`.
+
+---
+
+### 287. Faixa de consumo de água
+
+Crie um programa que leia o consumo mensal de água em metros cúbicos e classifique:
+
+* até 5: `Consumo muito baixo`;
+* de 6 até 10: `Consumo baixo`;
+* de 11 até 20: `Consumo médio`;
+* acima de 20: `Consumo alto`.
+
+---
+
+### 288. Classificação de distância
+
+Crie um programa que leia uma distância em quilômetros e classifique:
+
+* menor que 1: `Muito perto`;
+* de 1 até 5: `Perto`;
+* de 6 até 20: `Distância média`;
+* acima de 20: `Longe`.
+
+---
+
+### 289. Categoria de corrida
+
+Crie um programa que leia a distância de uma corrida em quilômetros e classifique:
+
+* até 5 km: `Corrida curta`;
+* de 6 até 10 km: `Corrida média`;
+* de 11 até 21 km: `Meia maratona`;
+* acima de 21 km: `Corrida longa`.
+
+---
+
+### 290. Classificação de pontuação em jogo
+
+Crie um programa que leia a pontuação de um jogador e classifique:
+
+* menor que 1000: `Iniciante`;
+* de 1000 até 4999: `Intermediário`;
+* de 5000 até 9999: `Avançado`;
+* 10000 ou mais: `Mestre`.
+
+---
+
+### 291. Ranking de jogador
+
+Crie um programa que leia a pontuação de um jogador e mostre o ranking:
+
+* menor que 500: `Bronze`;
+* de 500 até 1499: `Prata`;
+* de 1500 até 2999: `Ouro`;
+* de 3000 até 4999: `Diamante`;
+* 5000 ou mais: `Lendário`.
+
+---
+
+### 292. Nível de personagem
+
+Crie um programa que leia o nível de um personagem e classifique:
+
+* de 1 até 10: `Aprendiz`;
+* de 11 até 30: `Guerreiro`;
+* de 31 até 60: `Especialista`;
+* de 61 até 99: `Mestre`;
+* 100 ou mais: `Lenda`.
+
+Se o nível for menor que 1, exiba:
+
+`Nível inválido.`
+
+---
+
+### 293. Sistema de notas com recuperação
+
+Crie um programa que leia a média de um aluno e classifique:
+
+* menor que 40: `Reprovado`;
+* de 40 até 59: `Recuperação`;
+* de 60 até 79: `Aprovado`;
+* de 80 até 100: `Aprovado com destaque`.
+
+---
+
+### 294. Situação por média e frequência
+
+Crie um programa que leia:
+
+* média do aluno;
+* frequência do aluno.
+
+Classifique inicialmente apenas por média:
+
+* média menor que 40: `Reprovado por nota`;
+* média de 40 até 59: `Recuperação`;
+* média maior ou igual a 60: `Nota suficiente`.
+
+Depois, classifique a frequência:
+
+* frequência menor que 75: `Frequência insuficiente`;
+* frequência maior ou igual a 75: `Frequência suficiente`.
+
+Use estruturas `if`, `else if` e `else`.
+
+---
+
+### 295. Simulador de caixa eletrônico por opção
+
+Crie um programa que leia uma opção:
+
+`1 - Consultar saldo`
+`2 - Sacar`
+`3 - Depositar`
+`4 - Sair`
+
+Mostre uma mensagem de acordo com a opção escolhida.
+
+Para opção inválida, exiba:
+
+`Opção inválida.`
+
+---
+
+### 296. Cálculo de saque com saldo
+
+Crie um programa que leia:
+
+* saldo disponível;
+* opção do menu.
+
+Menu:
+
+`1 - Sacar R$ 50,00`
+`2 - Sacar R$ 100,00`
+`3 - Sacar R$ 200,00`
+
+De acordo com a opção, tente realizar o saque.
+
+Se houver saldo suficiente, mostre o novo saldo.
+
+Se não houver saldo suficiente, mostre:
+
+`Saldo insuficiente.`
+
+Se a opção for inválida, mostre:
+
+`Opção inválida.`
+
+---
+
+### 297. Reajuste salarial por faixa
+
+Crie um programa que leia o salário de um funcionário e aplique reajuste conforme a faixa:
+
+* até R$ 1500,00: aumento de 15%;
+* de R$ 1500,01 até R$ 3000,00: aumento de 10%;
+* de R$ 3000,01 até R$ 6000,00: aumento de 5%;
+* acima de R$ 6000,00: aumento de 2%.
+
+Mostre o valor do aumento e o novo salário.
+
+---
+
+### 298. Imposto por faixa de salário
+
+Crie um programa que leia o salário de uma pessoa e calcule o imposto:
+
+* até R$ 2000,00: isento;
+* de R$ 2000,01 até R$ 4000,00: 8%;
+* de R$ 4000,01 até R$ 7000,00: 15%;
+* acima de R$ 7000,00: 22%.
+
+Mostre o valor do imposto e o salário após o desconto.
+
+---
+
+### 299. Calculadora de compras por categoria
+
+Crie um programa que leia:
+
+* valor do produto;
+* categoria do produto.
+
+Categorias:
+
+* 1: alimento — desconto de 5%;
+* 2: limpeza — desconto de 8%;
+* 3: eletrônico — desconto de 10%;
+* 4: vestuário — desconto de 12%.
+
+Mostre o valor final com desconto.
+
+Se a categoria for inválida, exiba:
+
+`Categoria inválida.`
+
+---
+
+### 300. Sistema de atendimento completo
+
+Crie um programa que leia o tipo de atendimento desejado:
+
+`1 - Suporte técnico`
+`2 - Financeiro`
+`3 - Comercial`
+`4 - Cancelamento`
+`5 - Falar com atendente`
+
+Depois, leia o nível de urgência:
+
+`1 - Baixa`
+`2 - Média`
+`3 - Alta`
+
+O programa deverá exibir uma mensagem combinando o setor escolhido e a urgência.
+
+Exemplo:
+
+`Atendimento: Suporte técnico`
+`Urgência: Alta`
+
+Se o tipo de atendimento ou a urgência forem inválidos, exiba uma mensagem adequada.
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, use `else if` quando existir mais de duas possibilidades.
+
+Estrutura básica:
+
+```c
+if (condicao1) {
+    printf("Primeira possibilidade");
+} else if (condicao2) {
+    printf("Segunda possibilidade");
+} else if (condicao3) {
+    printf("Terceira possibilidade");
+} else {
+    printf("Nenhuma das anteriores");
+}
+```
+
+### Exemplo completo
+
+```c
+#include <stdio.h>
+
+int main() {
+    float nota;
+
+    printf("Digite a nota: ");
+    scanf("%f", &nota);
+
+    if (nota < 60) {
+        printf("Reprovado");
+    } else if (nota < 80) {
+        printf("Aprovado");
+    } else if (nota < 90) {
+        printf("Muito bom");
+    } else {
+        printf("Excelente");
+    }
+
+    return 0;
+}
+```
+
+### Atenção importante
+
+Ao usar faixas numéricas em sequência, muitas vezes não é necessário repetir tudo.
+
+Exemplo:
+
+```c
+if (nota < 60) {
+    printf("Reprovado");
+} else if (nota < 80) {
+    printf("Aprovado");
+}
+```
+
+No segundo teste, o programa só chega ali se a nota **não for menor que 60**.
+Então, automaticamente, ela já é maior ou igual a 60.
+
+Isso ajuda a criar condições mais limpas e organizadas.
+
+
+# Lista de Exercícios em C
+
+## Bloco 7 — Condições Compostas com `&&`, `||` e `!`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar condições compostas usando os operadores lógicos da linguagem C.
+
+Os principais operadores trabalhados serão:
+
+* `&&` — operador E;
+* `||` — operador OU;
+* `!` — operador NÃO.
+
+Esses operadores permitem criar decisões mais completas.
+
+Exemplo com `&&`:
+
+```c
+if (idade >= 18 && idade <= 59) {
+    printf("Adulto.");
+}
+```
+
+Nesse caso, as duas condições precisam ser verdadeiras.
+
+Exemplo com `||`:
+
+```c
+if (dia == 6 || dia == 7) {
+    printf("Fim de semana.");
+}
+```
+
+Nesse caso, basta uma das condições ser verdadeira.
+
+Exemplo com `!`:
+
+```c
+if (!(senha == 1234)) {
+    printf("Senha incorreta.");
+}
+```
+
+Nesse caso, o operador `!` inverte o resultado da condição.
+
+---
+
+## Exercícios
+
+### 301. Adulto
+
+Crie um programa que leia a idade de uma pessoa.
+
+Se a idade for maior ou igual a 18 **e** menor que 60, exiba:
+
+`Pessoa adulta.`
+
+Senão, exiba:
+
+`Pessoa não adulta.`
+
+---
+
+### 302. Adolescente
+
+Crie um programa que leia a idade de uma pessoa.
+
+Se a idade for maior ou igual a 12 **e** menor ou igual a 17, exiba:
+
+`Adolescente.`
+
+Senão, exiba:
+
+`Não é adolescente.`
+
+---
+
+### 303. Nota válida
+
+Crie um programa que leia uma nota.
+
+Se a nota for maior ou igual a 0 **e** menor ou igual a 100, exiba:
+
+`Nota válida.`
+
+Senão, exiba:
+
+`Nota inválida.`
+
+---
+
+### 304. Temperatura agradável
+
+Crie um programa que leia a temperatura atual.
+
+Se a temperatura for maior ou igual a 20 **e** menor ou igual a 28, exiba:
+
+`Temperatura agradável.`
+
+Senão, exiba:
+
+`Temperatura fora da faixa agradável.`
+
+---
+
+### 305. Número entre 10 e 50
+
+Crie um programa que leia um número inteiro.
+
+Se o número estiver entre 10 e 50, inclusive, exiba:
+
+`Número dentro da faixa.`
+
+Senão, exiba:
+
+`Número fora da faixa.`
+
+---
+
+### 306. Número fora da faixa
+
+Crie um programa que leia um número inteiro.
+
+Se o número for menor que 10 **ou** maior que 50, exiba:
+
+`Número fora da faixa.`
+
+Senão, exiba:
+
+`Número dentro da faixa.`
+
+---
+
+### 307. Aprovação por nota e frequência
+
+Crie um programa que leia:
+
+* média do aluno;
+* frequência do aluno.
+
+Se a média for maior ou igual a 60 **e** a frequência for maior ou igual a 75, exiba:
+
+`Aluno aprovado.`
+
+Senão, exiba:
+
+`Aluno reprovado.`
+
+---
+
+### 308. Reprovação por nota ou frequência
+
+Crie um programa que leia:
+
+* média do aluno;
+* frequência do aluno.
+
+Se a média for menor que 60 **ou** a frequência for menor que 75, exiba:
+
+`Aluno reprovado.`
+
+Senão, exiba:
+
+`Aluno aprovado.`
+
+---
+
+### 309. Login com usuário e senha numéricos
+
+Crie um programa que leia:
+
+* código de usuário;
+* senha numérica.
+
+Se o código for igual a `10` **e** a senha for igual a `1234`, exiba:
+
+`Login realizado com sucesso.`
+
+Senão, exiba:
+
+`Usuário ou senha inválidos.`
+
+---
+
+### 310. Acesso ao laboratório
+
+Crie um programa que leia:
+
+* idade do aluno;
+* autorização, sendo `1` para autorizado e `0` para não autorizado.
+
+Se a idade for maior ou igual a 16 **e** a autorização for igual a `1`, exiba:
+
+`Entrada permitida no laboratório.`
+
+Senão, exiba:
+
+`Entrada não permitida.`
+
+---
+
+### 311. Pode participar do campeonato
+
+Crie um programa que leia:
+
+* idade do jogador;
+* quantidade de vitórias.
+
+Se a idade for maior ou igual a 12 **e** a quantidade de vitórias for maior ou igual a 5, exiba:
+
+`Pode participar do campeonato.`
+
+Senão, exiba:
+
+`Não pode participar do campeonato.`
+
+---
+
+### 312. Produto com desconto especial
+
+Crie um programa que leia:
+
+* valor da compra;
+* quantidade de produtos.
+
+Se o valor da compra for maior ou igual a 200 **e** a quantidade de produtos for maior ou igual a 3, exiba:
+
+`Desconto especial liberado.`
+
+Senão, exiba:
+
+`Desconto especial não liberado.`
+
+---
+
+### 313. Frete grátis por valor ou cupom
+
+Crie um programa que leia:
+
+* valor da compra;
+* cupom, sendo `1` para cupom válido e `0` para cupom inválido.
+
+Se o valor da compra for maior ou igual a 250 **ou** o cupom for igual a `1`, exiba:
+
+`Frete grátis liberado.`
+
+Senão, exiba:
+
+`Frete será cobrado.`
+
+---
+
+### 314. Atendimento prioritário
+
+Crie um programa que leia:
+
+* idade da pessoa;
+* indicador de deficiência, sendo `1` para sim e `0` para não.
+
+Se a idade for maior ou igual a 60 **ou** o indicador de deficiência for igual a `1`, exiba:
+
+`Atendimento prioritário.`
+
+Senão, exiba:
+
+`Atendimento comum.`
+
+---
+
+### 315. Horário comercial
+
+Crie um programa que leia a hora atual, usando valores de 0 a 23.
+
+Se a hora for maior ou igual a 8 **e** menor ou igual a 18, exiba:
+
+`Dentro do horário comercial.`
+
+Senão, exiba:
+
+`Fora do horário comercial.`
+
+---
+
+### 316. Madrugada
+
+Crie um programa que leia a hora atual, usando valores de 0 a 23.
+
+Se a hora for maior ou igual a 0 **e** menor que 6, exiba:
+
+`Madrugada.`
+
+Senão, exiba:
+
+`Não é madrugada.`
+
+---
+
+### 317. Fim de semana
+
+Crie um programa que leia um número representando o dia da semana:
+
+* 1 para domingo;
+* 2 para segunda;
+* 3 para terça;
+* 4 para quarta;
+* 5 para quinta;
+* 6 para sexta;
+* 7 para sábado.
+
+Se o dia for igual a 1 **ou** igual a 7, exiba:
+
+`Fim de semana.`
+
+Senão, exiba:
+
+`Dia útil.`
+
+---
+
+### 318. Dia útil
+
+Crie um programa que leia um número representando o dia da semana.
+
+Se o dia for maior ou igual a 2 **e** menor ou igual a 6, exiba:
+
+`Dia útil.`
+
+Senão, exiba:
+
+`Fim de semana ou dia inválido.`
+
+---
+
+### 319. Letra de confirmação
+
+Crie um programa que leia uma letra.
+
+Se a letra for igual a `S` **ou** igual a `s`, exiba:
+
+`Confirmação aceita.`
+
+Senão, exiba:
+
+`Confirmação não aceita.`
+
+---
+
+### 320. Resposta negativa
+
+Crie um programa que leia uma letra.
+
+Se a letra for igual a `N` **ou** igual a `n`, exiba:
+
+`Resposta negativa registrada.`
+
+Senão, exiba:
+
+`Resposta diferente de negativa.`
+
+---
+
+### 321. Senha diferente de 1234
+
+Crie um programa que leia uma senha numérica.
+
+Usando o operador `!`, verifique se a senha **não** é igual a `1234`.
+
+Se não for igual, exiba:
+
+`Senha incorreta.`
+
+Senão, exiba:
+
+`Senha correta.`
+
+---
+
+### 322. Usuário não bloqueado
+
+Crie um programa que leia uma variável chamada `bloqueado`, sendo:
+
+* `1` para usuário bloqueado;
+* `0` para usuário não bloqueado.
+
+Usando o operador `!`, se o usuário não estiver bloqueado, exiba:
+
+`Usuário pode acessar o sistema.`
+
+Senão, exiba:
+
+`Usuário bloqueado.`
+
+---
+
+### 323. Sistema não está desligado
+
+Crie um programa que leia uma variável chamada `desligado`, sendo:
+
+* `1` para sistema desligado;
+* `0` para sistema ligado.
+
+Usando o operador `!`, se o sistema não estiver desligado, exiba:
+
+`Sistema em funcionamento.`
+
+Senão, exiba:
+
+`Sistema desligado.`
+
+---
+
+### 324. Verificação de intervalo com `!`
+
+Crie um programa que leia um número inteiro.
+
+Usando o operador `!`, verifique se o número **não está** entre 1 e 10.
+
+Se não estiver entre 1 e 10, exiba:
+
+`Número fora do intervalo.`
+
+Senão, exiba:
+
+`Número dentro do intervalo.`
+
+---
+
+### 325. Acesso com idade e ingresso
+
+Crie um programa que leia:
+
+* idade da pessoa;
+* ingresso, sendo `1` para possui ingresso e `0` para não possui.
+
+Se a idade for maior ou igual a 18 **e** possuir ingresso, exiba:
+
+`Entrada permitida no evento.`
+
+Senão, exiba:
+
+`Entrada não permitida.`
+
+---
+
+### 326. Entrada no cinema
+
+Crie um programa que leia:
+
+* idade da pessoa;
+* classificação indicativa do filme.
+
+Se a idade for maior ou igual à classificação indicativa, exiba:
+
+`Entrada permitida.`
+
+Senão, exiba:
+
+`Entrada não permitida.`
+
+---
+
+### 327. Compra aprovada no cartão
+
+Crie um programa que leia:
+
+* valor da compra;
+* limite disponível no cartão.
+
+Se o valor da compra for menor ou igual ao limite disponível, exiba:
+
+`Compra aprovada.`
+
+Senão, exiba:
+
+`Compra recusada.`
+
+---
+
+### 328. Compra aprovada com limite e senha
+
+Crie um programa que leia:
+
+* valor da compra;
+* limite disponível;
+* senha, sendo a senha correta `1234`.
+
+Se o valor da compra for menor ou igual ao limite disponível **e** a senha for igual a `1234`, exiba:
+
+`Compra aprovada.`
+
+Senão, exiba:
+
+`Compra recusada.`
+
+---
+
+### 329. Promoção por idade ou estudante
+
+Crie um programa que leia:
+
+* idade da pessoa;
+* estudante, sendo `1` para sim e `0` para não.
+
+Se a idade for menor que 18 **ou** for estudante, exiba:
+
+`Tem direito à meia-entrada.`
+
+Senão, exiba:
+
+`Não tem direito à meia-entrada.`
+
+---
+
+### 330. Desconto para cliente especial
+
+Crie um programa que leia:
+
+* valor da compra;
+* cliente especial, sendo `1` para sim e `0` para não.
+
+Se o valor da compra for maior que 300 **ou** o cliente for especial, aplique 10% de desconto.
+
+Senão, mantenha o valor original.
+
+Mostre o valor final da compra.
+
+---
+
+### 331. Verificação de triângulo simples
+
+Crie um programa que leia três lados de um triângulo.
+
+Se a soma de dois lados for maior que o terceiro lado **em todas as combinações**, exiba:
+
+`Os lados formam um triângulo.`
+
+Senão, exiba:
+
+`Os lados não formam um triângulo.`
+
+Dica:
+
+Use `&&`.
+
+---
+
+### 332. Triângulo equilátero
+
+Crie um programa que leia três lados de um triângulo.
+
+Se os três lados forem iguais, exiba:
+
+`Triângulo equilátero.`
+
+Senão, exiba:
+
+`Não é equilátero.`
+
+---
+
+### 333. Triângulo isósceles
+
+Crie um programa que leia três lados de um triângulo.
+
+Se pelo menos dois lados forem iguais, exiba:
+
+`Triângulo isósceles.`
+
+Senão, exiba:
+
+`Não é isósceles.`
+
+Dica:
+
+Use `||`.
+
+---
+
+### 334. Triângulo escaleno
+
+Crie um programa que leia três lados de um triângulo.
+
+Se os três lados forem diferentes entre si, exiba:
+
+`Triângulo escaleno.`
+
+Senão, exiba:
+
+`Não é escaleno.`
+
+---
+
+### 335. Ano bissexto simplificado
+
+Crie um programa que leia um ano.
+
+Se o ano for divisível por 4 **e** não for divisível por 100, exiba:
+
+`Ano bissexto simplificado.`
+
+Senão, exiba:
+
+`Ano não bissexto pela regra simplificada.`
+
+---
+
+### 336. Ano bissexto completo
+
+Crie um programa que leia um ano.
+
+Um ano é bissexto se:
+
+* for divisível por 400;
+
+ou
+
+* for divisível por 4 **e** não for divisível por 100.
+
+Mostre se o ano é bissexto ou não.
+
+---
+
+### 337. Login com duas senhas possíveis
+
+Crie um programa que leia uma senha numérica.
+
+Se a senha for igual a `1234` **ou** igual a `2026`, exiba:
+
+`Senha aceita.`
+
+Senão, exiba:
+
+`Senha recusada.`
+
+---
+
+### 338. Código de produto válido
+
+Crie um programa que leia um código de produto.
+
+Se o código for igual a `100`, `200` ou `300`, exiba:
+
+`Código válido.`
+
+Senão, exiba:
+
+`Código inválido.`
+
+---
+
+### 339. Número múltiplo de 3 e 5
+
+Crie um programa que leia um número inteiro.
+
+Se o número for divisível por 3 **e** por 5, exiba:
+
+`Número múltiplo de 3 e 5.`
+
+Senão, exiba:
+
+`Número não é múltiplo de 3 e 5 ao mesmo tempo.`
+
+---
+
+### 340. Número múltiplo de 3 ou 5
+
+Crie um programa que leia um número inteiro.
+
+Se o número for divisível por 3 **ou** por 5, exiba:
+
+`Número múltiplo de 3 ou 5.`
+
+Senão, exiba:
+
+`Número não é múltiplo de 3 nem de 5.`
+
+---
+
+### 341. Número par e positivo
+
+Crie um programa que leia um número inteiro.
+
+Se o número for par **e** positivo, exiba:
+
+`Número par e positivo.`
+
+Senão, exiba:
+
+`Número não atende às duas condições.`
+
+---
+
+### 342. Número ímpar ou negativo
+
+Crie um programa que leia um número inteiro.
+
+Se o número for ímpar **ou** negativo, exiba:
+
+`Número ímpar ou negativo.`
+
+Senão, exiba:
+
+`Número não é ímpar nem negativo.`
+
+---
+
+### 343. Validação de data simples
+
+Crie um programa que leia:
+
+* dia;
+* mês;
+* ano.
+
+Considere uma validação simples:
+
+* dia entre 1 e 31;
+* mês entre 1 e 12;
+* ano maior que 0.
+
+Se todos os dados estiverem dentro dessas faixas, exiba:
+
+`Data válida de forma simplificada.`
+
+Senão, exiba:
+
+`Data inválida.`
+
+---
+
+### 344. Horário válido
+
+Crie um programa que leia:
+
+* hora;
+* minuto.
+
+Se a hora estiver entre 0 e 23 **e** o minuto estiver entre 0 e 59, exiba:
+
+`Horário válido.`
+
+Senão, exiba:
+
+`Horário inválido.`
+
+---
+
+### 345. Coordenada no primeiro quadrante
+
+Crie um programa que leia os valores de `x` e `y`.
+
+Se `x` for maior que 0 **e** `y` for maior que 0, exiba:
+
+`Ponto no primeiro quadrante.`
+
+Senão, exiba:
+
+`Ponto fora do primeiro quadrante.`
+
+---
+
+### 346. Coordenada sobre os eixos
+
+Crie um programa que leia os valores de `x` e `y`.
+
+Se `x` for igual a 0 **ou** `y` for igual a 0, exiba:
+
+`Ponto sobre algum eixo.`
+
+Senão, exiba:
+
+`Ponto fora dos eixos.`
+
+---
+
+### 347. Verificação de entrega
+
+Crie um programa que leia:
+
+* produto em estoque, sendo `1` para sim e `0` para não;
+* pagamento aprovado, sendo `1` para sim e `0` para não;
+* endereço confirmado, sendo `1` para sim e `0` para não.
+
+Se as três condições forem verdadeiras, exiba:
+
+`Pedido pronto para envio.`
+
+Senão, exiba:
+
+`Pedido ainda não pode ser enviado.`
+
+---
+
+### 348. Verificação de matrícula
+
+Crie um programa que leia:
+
+* documentação entregue, sendo `1` para sim e `0` para não;
+* pagamento da matrícula realizado, sendo `1` para sim e `0` para não;
+* vaga disponível, sendo `1` para sim e `0` para não.
+
+Se as três condições forem verdadeiras, exiba:
+
+`Matrícula confirmada.`
+
+Senão, exiba:
+
+`Matrícula pendente.`
+
+---
+
+### 349. Sistema de segurança
+
+Crie um programa que leia:
+
+* porta fechada, sendo `1` para sim e `0` para não;
+* janela fechada, sendo `1` para sim e `0` para não;
+* alarme ativado, sendo `1` para sim e `0` para não.
+
+Se a porta estiver fechada **e** a janela estiver fechada **e** o alarme estiver ativado, exiba:
+
+`Sistema seguro.`
+
+Senão, exiba:
+
+`Sistema inseguro.`
+
+---
+
+### 350. Acesso completo ao sistema
+
+Crie um programa que leia:
+
+* usuário ativo, sendo `1` para sim e `0` para não;
+* senha correta, sendo `1` para sim e `0` para não;
+* nível de acesso.
+
+O acesso será liberado se:
+
+* o usuário estiver ativo;
+* a senha estiver correta;
+* o nível de acesso for maior ou igual a 2.
+
+Se todas as condições forem verdadeiras, exiba:
+
+`Acesso completo liberado.`
+
+Senão, exiba:
+
+`Acesso negado.`
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, preste atenção na diferença entre `&&` e `||`.
+
+### Operador `&&`
+
+Use `&&` quando **todas as condições precisam ser verdadeiras**.
+
+Exemplo:
+
+```c
+if (media >= 60 && frequencia >= 75) {
+    printf("Aluno aprovado.");
+}
+```
+
+Nesse caso, o aluno só será aprovado se tiver média suficiente **e** frequência suficiente.
+
+---
+
+### Operador `||`
+
+Use `||` quando **basta uma das condições ser verdadeira**.
+
+Exemplo:
+
+```c
+if (idade >= 60 || deficiente == 1) {
+    printf("Atendimento prioritario.");
+}
+```
+
+Nesse caso, a pessoa terá atendimento prioritário se for idosa **ou** se tiver deficiência.
+
+---
+
+### Operador `!`
+
+Use `!` para inverter uma condição.
+
+Exemplo:
+
+```c
+if (!(senha == 1234)) {
+    printf("Senha incorreta.");
+}
+```
+
+Isso significa:
+
+`Se a senha NÃO for igual a 1234.`
+
+Também poderia ser escrito assim:
+
+```c
+if (senha != 1234) {
+    printf("Senha incorreta.");
+}
+```
+
+---
+
+## Dica importante
+
+Quando uma condição ficar muito grande, use parênteses para deixar o código mais claro.
+
+Exemplo:
+
+```c
+if ((idade >= 18 && ingresso == 1) || autorizacao == 1) {
+    printf("Entrada permitida.");
+}
+```
+
+Os parênteses ajudam o programador a entender melhor a lógica da decisão.
+
+
+# Lista de Exercícios em C
+
+## Bloco 8 — Exercícios Mistos de Decisão
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá resolver problemas que misturam diferentes tipos de estruturas condicionais em C.
+
+Os exercícios podem exigir:
+
+* `if` simples;
+* `if` e `else`;
+* `else if`;
+* operadores lógicos `&&`, `||` e `!`;
+* cálculos dentro das decisões;
+* validação de entrada;
+* menus;
+* simulações de sistemas simples.
+
+A proposta é fazer o aluno interpretar o problema e decidir qual estrutura condicional usar.
+
+---
+
+## Exercícios
+
+### 351. Situação completa do aluno
+
+Crie um programa que leia:
+
+* média do aluno;
+* frequência do aluno.
+
+Classifique a situação:
+
+* se a média for maior ou igual a 60 e a frequência for maior ou igual a 75, exiba `Aprovado`;
+* se a média for menor que 60 e a frequência for maior ou igual a 75, exiba `Reprovado por nota`;
+* se a média for maior ou igual a 60 e a frequência for menor que 75, exiba `Reprovado por frequência`;
+* se a média for menor que 60 e a frequência for menor que 75, exiba `Reprovado por nota e frequência`.
+
+---
+
+### 352. Login com três tentativas simuladas
+
+Crie um programa que leia:
+
+* código do usuário;
+* senha.
+
+Se o código for `100` e a senha for `1234`, exiba:
+
+`Login aprovado.`
+
+Se o código estiver correto e a senha estiver incorreta, exiba:
+
+`Senha incorreta.`
+
+Se o código estiver incorreto, exiba:
+
+`Usuário não encontrado.`
+
+---
+
+### 353. Compra com desconto e frete
+
+Crie um programa que leia:
+
+* valor da compra;
+* região de entrega.
+
+Regiões:
+
+* `1` Sudeste — frete R$ 20,00;
+* `2` Sul — frete R$ 25,00;
+* `3` Nordeste — frete R$ 35,00;
+* `4` Norte — frete R$ 40,00.
+
+Regras:
+
+* compras acima de R$ 300,00 recebem 10% de desconto;
+* compras acima de R$ 500,00 recebem frete grátis;
+* região inválida deve exibir `Região inválida`.
+
+Mostre o valor final.
+
+---
+
+### 354. Classificação de número
+
+Crie um programa que leia um número inteiro e informe se ele é:
+
+* positivo, negativo ou zero;
+* par ou ímpar, quando for diferente de zero.
+
+---
+
+### 355. Caixa eletrônico com verificação
+
+Crie um programa que leia:
+
+* saldo disponível;
+* valor do saque;
+* senha.
+
+A senha correta é `4321`.
+
+O saque só deve ser permitido se:
+
+* a senha estiver correta;
+* o valor do saque for menor ou igual ao saldo;
+* o valor do saque for maior que zero.
+
+Mostre mensagens específicas para:
+
+* senha incorreta;
+* valor inválido;
+* saldo insuficiente;
+* saque realizado com sucesso.
+
+---
+
+### 356. Sistema de temperatura
+
+Crie um programa que leia uma temperatura e uma unidade:
+
+* `C` para Celsius;
+* `F` para Fahrenheit.
+
+Se a unidade for `C`, classifique:
+
+* menor que 0: `Abaixo de zero`;
+* de 0 até 25: `Temperatura amena`;
+* acima de 25: `Temperatura alta`.
+
+Se a unidade for `F`, converta para Celsius e depois faça a mesma classificação.
+
+Se a unidade for inválida, exiba:
+
+`Unidade inválida.`
+
+---
+
+### 357. Pedido de lanche completo
+
+Crie um programa que leia:
+
+* código do lanche;
+* quantidade;
+* forma de pagamento.
+
+Lanches:
+
+* 1: hambúrguer — R$ 15,00;
+* 2: pizza — R$ 12,00;
+* 3: cachorro-quente — R$ 10,00;
+* 4: pastel — R$ 8,00.
+
+Formas de pagamento:
+
+* 1: dinheiro — 5% de desconto;
+* 2: cartão — preço normal;
+* 3: pix — 10% de desconto.
+
+Se o código do lanche ou a forma de pagamento forem inválidos, mostre mensagem de erro.
+
+Mostre o valor final do pedido.
+
+---
+
+### 358. Avaliação de produto
+
+Crie um programa que leia uma nota de avaliação de 1 a 5.
+
+Mostre:
+
+* 1: `Muito ruim`;
+* 2: `Ruim`;
+* 3: `Regular`;
+* 4: `Bom`;
+* 5: `Excelente`.
+
+Se a nota for inválida, exiba:
+
+`Avaliação inválida.`
+
+Depois, se a nota for 4 ou 5, exiba também:
+
+`Produto recomendado.`
+
+---
+
+### 359. Sistema de multa
+
+Crie um programa que leia:
+
+* velocidade do veículo;
+* limite da via.
+
+Calcule a diferença entre a velocidade e o limite.
+
+Regras:
+
+* se a velocidade for menor ou igual ao limite, exiba `Sem multa`;
+* se ultrapassar até 10 km/h, exiba `Multa leve`;
+* se ultrapassar de 11 até 30 km/h, exiba `Multa média`;
+* se ultrapassar mais de 30 km/h, exiba `Multa grave`.
+
+---
+
+### 360. Controle de estoque com pedido
+
+Crie um programa que leia:
+
+* quantidade em estoque;
+* quantidade solicitada pelo cliente.
+
+Regras:
+
+* se a quantidade solicitada for menor ou igual a zero, exiba `Quantidade inválida`;
+* se o estoque for zero, exiba `Produto esgotado`;
+* se a quantidade solicitada for menor ou igual ao estoque, exiba `Pedido aprovado`;
+* caso contrário, exiba `Estoque insuficiente`.
+
+---
+
+### 361. Calculadora com menu e validação
+
+Crie um programa que leia dois números e uma opção:
+
+* 1: somar;
+* 2: subtrair;
+* 3: multiplicar;
+* 4: dividir.
+
+Regras:
+
+* se a opção for inválida, exiba `Opção inválida`;
+* se a opção for divisão e o segundo número for zero, exiba `Não é possível dividir por zero`;
+* caso contrário, mostre o resultado da operação.
+
+---
+
+### 362. Classificação de IMC completa
+
+Crie um programa que leia peso e altura.
+
+Valide:
+
+* peso deve ser maior que zero;
+* altura deve ser maior que zero.
+
+Se algum dado for inválido, exiba mensagem de erro.
+
+Caso contrário, calcule o IMC e classifique:
+
+* menor que 18.5: `Abaixo do peso`;
+* de 18.5 até 24.9: `Peso normal`;
+* de 25 até 29.9: `Sobrepeso`;
+* 30 ou mais: `Obesidade`.
+
+---
+
+### 363. Sistema de votação
+
+Crie um programa que leia a idade de uma pessoa e informe:
+
+* menor que 16: `Não pode votar`;
+* de 16 até 17: `Voto facultativo`;
+* de 18 até 69: `Voto obrigatório`;
+* 70 ou mais: `Voto facultativo`.
+
+Se a idade for negativa, exiba:
+
+`Idade inválida.`
+
+---
+
+### 364. Promoção de cinema
+
+Crie um programa que leia:
+
+* idade;
+* estudante, sendo `1` para sim e `0` para não;
+* dia da semana.
+
+Regras:
+
+* menores de 12 anos pagam meia;
+* estudantes pagam meia;
+* às quartas-feiras, todos pagam meia;
+* caso contrário, pagam inteira.
+
+Considere:
+
+* ingresso inteiro: R$ 30,00;
+* meia: R$ 15,00;
+* quarta-feira: dia `4`.
+
+Mostre o valor do ingresso.
+
+---
+
+### 365. Sistema de acesso ao laboratório
+
+Crie um programa que leia:
+
+* idade;
+* autorização do professor, sendo `1` para sim e `0` para não;
+* uso de equipamento de segurança, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* só entra se tiver pelo menos 16 anos;
+* ou se tiver autorização do professor;
+* em todos os casos, precisa estar usando equipamento de segurança.
+
+Mostre se a entrada foi permitida ou negada.
+
+---
+
+### 366. Validação de senha forte
+
+Crie um programa que leia:
+
+* tamanho da senha;
+* possui número, sendo `1` para sim e `0` para não;
+* possui letra maiúscula, sendo `1` para sim e `0` para não;
+* possui caractere especial, sendo `1` para sim e `0` para não.
+
+Classifique:
+
+* se tiver tamanho menor que 6: `Senha fraca`;
+* se tiver tamanho maior ou igual a 6 e pelo menos dois dos três critérios adicionais: `Senha média`;
+* se tiver tamanho maior ou igual a 10 e os três critérios adicionais: `Senha forte`;
+* caso contrário: `Senha fraca`.
+
+---
+
+### 367. Empréstimo bancário simples
+
+Crie um programa que leia:
+
+* salário mensal;
+* valor da parcela do empréstimo;
+* possui restrição no nome, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* a parcela não pode ultrapassar 30% do salário;
+* a pessoa não pode ter restrição no nome.
+
+Mostre:
+
+* `Empréstimo aprovado`;
+* `Empréstimo negado por parcela alta`;
+* `Empréstimo negado por restrição`;
+* ou `Empréstimo negado por parcela alta e restrição`.
+
+---
+
+### 368. Plano de celular
+
+Crie um programa que leia:
+
+* código do plano;
+* quantidade de dados extras em GB.
+
+Planos:
+
+* 1: Básico — R$ 40,00;
+* 2: Intermediário — R$ 70,00;
+* 3: Avançado — R$ 100,00.
+
+Cada GB extra custa R$ 10,00.
+
+Se o código do plano for inválido ou a quantidade de dados extras for negativa, mostre mensagem de erro.
+
+Caso contrário, mostre o valor final da fatura.
+
+---
+
+### 369. Transporte escolar
+
+Crie um programa que leia:
+
+* distância da casa até a escola em km;
+* quantidade de dias de uso no mês;
+* possui desconto, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* até 5 km: R$ 5,00 por dia;
+* acima de 5 km e até 15 km: R$ 8,00 por dia;
+* acima de 15 km: R$ 12,00 por dia;
+* se possuir desconto, reduza 20% do valor final.
+
+Mostre o valor mensal.
+
+---
+
+### 370. Classificação de triângulo completa
+
+Crie um programa que leia três lados de um triângulo.
+
+Primeiro, verifique se os lados formam um triângulo.
+
+Se não formarem, exiba:
+
+`Não forma triângulo.`
+
+Se formarem, classifique:
+
+* três lados iguais: `Equilátero`;
+* dois lados iguais: `Isósceles`;
+* três lados diferentes: `Escaleno`.
+
+---
+
+### 371. Ano bissexto com validação
+
+Crie um programa que leia um ano.
+
+Se o ano for menor ou igual a zero, exiba:
+
+`Ano inválido.`
+
+Caso contrário, verifique se é bissexto.
+
+Um ano é bissexto se:
+
+* for divisível por 400;
+
+ou
+
+* for divisível por 4 e não for divisível por 100.
+
+Mostre se o ano é bissexto ou não.
+
+---
+
+### 372. Sistema de notas com recuperação
+
+Crie um programa que leia:
+
+* nota 1;
+* nota 2;
+* frequência.
+
+Calcule a média.
+
+Regras:
+
+* se a frequência for menor que 75, exiba `Reprovado por frequência`;
+* se a frequência for suficiente e a média for menor que 40, exiba `Reprovado por nota`;
+* se a frequência for suficiente e a média estiver entre 40 e 59.99, exiba `Recuperação`;
+* se a frequência for suficiente e a média for maior ou igual a 60, exiba `Aprovado`.
+
+Mostre também a média.
+
+---
+
+### 373. Conversor de tempo com menu
+
+Crie um programa que leia uma quantidade de tempo e uma opção:
+
+* 1: horas para minutos;
+* 2: minutos para segundos;
+* 3: dias para horas;
+* 4: semanas para dias.
+
+Se a opção for inválida ou o valor for negativo, exiba mensagem de erro.
+
+Caso contrário, mostre a conversão.
+
+---
+
+### 374. Orçamento de pintura com desconto
+
+Crie um programa que leia:
+
+* largura da parede;
+* altura da parede;
+* preço do metro quadrado;
+* tipo de cliente.
+
+Tipos:
+
+* 1: comum;
+* 2: cliente antigo;
+* 3: cliente premium.
+
+Regras:
+
+* cliente comum não recebe desconto;
+* cliente antigo recebe 5%;
+* cliente premium recebe 10%.
+
+Valide se largura, altura e preço são maiores que zero.
+
+Mostre a área, o valor bruto, o desconto e o valor final.
+
+---
+
+### 375. Venda de produto com comissão
+
+Crie um programa que leia:
+
+* valor da venda;
+* tipo de vendedor.
+
+Tipos:
+
+* 1: júnior — comissão de 3%;
+* 2: pleno — comissão de 5%;
+* 3: sênior — comissão de 8%.
+
+Se o valor da venda for maior que R$ 5000,00, adicione bônus fixo de R$ 200,00 à comissão.
+
+Se o tipo for inválido ou o valor for menor ou igual a zero, exiba mensagem de erro.
+
+---
+
+### 376. Sistema de estacionamento
+
+Crie um programa que leia:
+
+* quantidade de horas estacionado;
+* tipo de veículo.
+
+Tipos:
+
+* 1: moto — R$ 3,00 por hora;
+* 2: carro — R$ 5,00 por hora;
+* 3: caminhonete — R$ 8,00 por hora.
+
+Regras:
+
+* se passar de 5 horas, aplicar desconto de 10%;
+* se o tipo for inválido ou as horas forem menores ou iguais a zero, exibir erro.
+
+Mostre o valor final.
+
+---
+
+### 377. Simulador de restaurante
+
+Crie um programa que leia:
+
+* valor da refeição;
+* tipo de pagamento;
+* deseja incluir taxa de serviço, sendo `1` para sim e `0` para não.
+
+Tipos de pagamento:
+
+* 1: dinheiro — 5% de desconto;
+* 2: cartão — sem desconto;
+* 3: pix — 8% de desconto.
+
+Taxa de serviço: 10% sobre o valor da refeição.
+
+Mostre o valor final.
+
+---
+
+### 378. Sistema de entrega
+
+Crie um programa que leia:
+
+* valor da compra;
+* distância da entrega em km;
+* cliente premium, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* até 5 km: frete R$ 10,00;
+* acima de 5 km até 15 km: frete R$ 20,00;
+* acima de 15 km: frete R$ 35,00;
+* cliente premium tem frete grátis se a compra for maior que R$ 100,00;
+* qualquer cliente tem frete grátis se a compra for maior que R$ 300,00.
+
+Mostre o valor final com frete.
+
+---
+
+### 379. Simulador de jogo: dano
+
+Crie um programa que leia:
+
+* força do personagem;
+* tipo de arma;
+* ataque crítico, sendo `1` para sim e `0` para não.
+
+Armas:
+
+* 1: espada — bônus de 10;
+* 2: arco — bônus de 7;
+* 3: cajado — bônus de 12.
+
+Dano base:
+
+`dano = força + bônus da arma`
+
+Se o ataque for crítico, o dano final deve ser dobrado.
+
+Se a arma for inválida ou a força for menor ou igual a zero, exiba erro.
+
+---
+
+### 380. Simulador de jogo: defesa
+
+Crie um programa que leia:
+
+* defesa do personagem;
+* tipo de armadura;
+* escudo ativo, sendo `1` para sim e `0` para não.
+
+Armaduras:
+
+* 1: leve — bônus de 5;
+* 2: média — bônus de 10;
+* 3: pesada — bônus de 15.
+
+Se o escudo estiver ativo, adicione mais 8 pontos de defesa.
+
+Mostre a defesa final.
+
+---
+
+### 381. Conversor de moeda com taxa
+
+Crie um programa que leia:
+
+* valor em reais;
+* moeda desejada.
+
+Moedas:
+
+* 1: dólar, cotação fictícia R$ 5,00;
+* 2: euro, cotação fictícia R$ 6,00;
+* 3: libra, cotação fictícia R$ 7,00.
+
+Regras:
+
+* se o valor for maior que R$ 1000,00, cobre taxa de 2%;
+* caso contrário, cobre taxa de 5%.
+
+Mostre o valor convertido após descontar a taxa.
+
+---
+
+### 382. Sistema de reserva de hotel
+
+Crie um programa que leia:
+
+* quantidade de diárias;
+* tipo de quarto;
+* café da manhã, sendo `1` para sim e `0` para não.
+
+Tipos de quarto:
+
+* 1: simples — R$ 120,00 por diária;
+* 2: duplo — R$ 180,00 por diária;
+* 3: luxo — R$ 300,00 por diária.
+
+Café da manhã custa R$ 25,00 por diária.
+
+Se a quantidade de diárias for maior que 5, aplique 10% de desconto no valor do quarto.
+
+Mostre o valor final.
+
+---
+
+### 383. Sistema de biblioteca
+
+Crie um programa que leia:
+
+* quantidade de dias de atraso;
+* tipo de usuário.
+
+Tipos:
+
+* 1: aluno — multa de R$ 1,00 por dia;
+* 2: professor — multa de R$ 0,50 por dia;
+* 3: visitante — multa de R$ 2,00 por dia.
+
+Regras:
+
+* se não houver atraso, não existe multa;
+* se o tipo for inválido, exiba erro.
+
+Mostre o valor da multa.
+
+---
+
+### 384. Controle de acesso por perfil
+
+Crie um programa que leia:
+
+* perfil do usuário;
+* status do usuário.
+
+Perfis:
+
+* 1: administrador;
+* 2: professor;
+* 3: aluno;
+* 4: visitante.
+
+Status:
+
+* 1: ativo;
+* 0: bloqueado.
+
+Regras:
+
+* administrador ativo acessa tudo;
+* professor ativo acessa notas e turmas;
+* aluno ativo acessa aulas;
+* visitante ativo acessa somente área pública;
+* qualquer usuário bloqueado não acessa o sistema;
+* perfil inválido deve exibir erro.
+
+---
+
+### 385. Diagnóstico simples de internet
+
+Crie um programa que leia:
+
+* modem ligado, sendo `1` para sim e `0` para não;
+* cabo conectado, sendo `1` para sim e `0` para não;
+* sinal da operadora, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* se o modem estiver desligado, exiba `Ligue o modem`;
+* se o cabo estiver desconectado, exiba `Verifique o cabo`;
+* se não houver sinal da operadora, exiba `Entre em contato com a operadora`;
+* se tudo estiver correto, exiba `Internet funcionando`.
+
+---
+
+### 386. Diagnóstico de computador
+
+Crie um programa que leia:
+
+* fonte funcionando, sendo `1` para sim e `0` para não;
+* memória RAM encaixada, sendo `1` para sim e `0` para não;
+* sistema operacional encontrado, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* se a fonte não estiver funcionando, exiba `Verificar fonte de alimentação`;
+* se a RAM não estiver encaixada, exiba `Verificar memória RAM`;
+* se o sistema operacional não for encontrado, exiba `Verificar HD ou SSD`;
+* se tudo estiver correto, exiba `Computador inicializado com sucesso`.
+
+---
+
+### 387. Sistema de manutenção preventiva
+
+Crie um programa que leia:
+
+* horas de uso da máquina;
+* temperatura da máquina;
+* vibração alta, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* se horas de uso forem maiores que 1000, exiba `Manutenção por tempo de uso`;
+* se temperatura for maior que 80, exiba `Manutenção por temperatura`;
+* se vibração alta for igual a 1, exiba `Manutenção por vibração`;
+* se nenhum problema for identificado, exiba `Máquina em operação normal`.
+
+---
+
+### 388. Cadastro com validação básica
+
+Crie um programa que leia:
+
+* idade;
+* altura;
+* peso.
+
+Valide:
+
+* idade deve ser maior que zero;
+* altura deve ser maior que zero;
+* peso deve ser maior que zero.
+
+Se todos forem válidos, exiba:
+
+`Cadastro realizado com sucesso.`
+
+Caso contrário, exiba quais campos estão inválidos.
+
+---
+
+### 389. Pedido escolar de material
+
+Crie um programa que leia:
+
+* quantidade de cadernos;
+* quantidade de lápis;
+* quantidade de borrachas.
+
+Preços:
+
+* caderno: R$ 12,00;
+* lápis: R$ 2,00;
+* borracha: R$ 1,50.
+
+Regras:
+
+* se alguma quantidade for negativa, exiba `Quantidade inválida`;
+* se o total passar de R$ 100,00, aplique 10% de desconto.
+
+Mostre o total final.
+
+---
+
+### 390. Simulador de energia solar
+
+Crie um programa que leia:
+
+* consumo mensal em kWh;
+* geração mensal em kWh.
+
+Regras:
+
+* se a geração for maior ou igual ao consumo, exiba `Energia suficiente`;
+* se a geração cobrir pelo menos metade do consumo, exiba `Energia parcialmente suficiente`;
+* caso contrário, exiba `Energia insuficiente`.
+
+Mostre também a diferença entre consumo e geração.
+
+---
+
+### 391. Controle de combustível
+
+Crie um programa que leia:
+
+* capacidade do tanque;
+* quantidade atual de combustível;
+* distância da viagem;
+* consumo médio em km/l.
+
+Regras:
+
+* validar se os valores são maiores que zero;
+* calcular quantos litros serão necessários para a viagem;
+* se a quantidade atual for suficiente, exibir `Combustível suficiente`;
+* caso contrário, exibir quantos litros faltam.
+
+---
+
+### 392. Simulador de aprovação em concurso
+
+Crie um programa que leia:
+
+* nota da prova objetiva;
+* nota da redação;
+* idade.
+
+Regras:
+
+* objetiva deve ser maior ou igual a 60;
+* redação deve ser maior ou igual a 70;
+* idade deve ser maior ou igual a 18.
+
+Se todos os critérios forem atendidos, exiba:
+
+`Candidato aprovado.`
+
+Caso contrário, exiba quais critérios não foram atendidos.
+
+---
+
+### 393. Validação de horário de aula
+
+Crie um programa que leia:
+
+* hora de início;
+* minuto de início;
+* hora de fim;
+* minuto de fim.
+
+Valide:
+
+* horas entre 0 e 23;
+* minutos entre 0 e 59;
+* horário de fim deve ser depois do horário de início.
+
+Dica:
+
+Converta tudo para minutos e compare.
+
+---
+
+### 394. Sistema de pagamento de mensalidade
+
+Crie um programa que leia:
+
+* valor da mensalidade;
+* dias de atraso;
+* tipo de aluno.
+
+Tipos:
+
+* 1: regular;
+* 2: bolsista;
+* 3: funcionário.
+
+Regras:
+
+* bolsista tem 50% de desconto;
+* funcionário tem 30% de desconto;
+* atraso gera multa de 2% mais R$ 1,00 por dia de atraso;
+* tipo inválido deve gerar erro.
+
+Mostre o valor final.
+
+---
+
+### 395. Simulador de hospedagem com temporada
+
+Crie um programa que leia:
+
+* quantidade de diárias;
+* tipo de quarto;
+* temporada.
+
+Tipos de quarto:
+
+* 1: simples — R$ 120,00;
+* 2: duplo — R$ 180,00;
+* 3: luxo — R$ 300,00.
+
+Temporada:
+
+* 1: baixa — sem acréscimo;
+* 2: média — acréscimo de 15%;
+* 3: alta — acréscimo de 30%.
+
+Se a quantidade de diárias for maior que 7, aplique desconto de 10% antes do acréscimo da temporada.
+
+---
+
+### 396. Sistema de oficina mecânica
+
+Crie um programa que leia:
+
+* valor das peças;
+* quantidade de horas de mão de obra;
+* tipo de serviço.
+
+Tipos:
+
+* 1: manutenção simples — R$ 80,00 por hora;
+* 2: manutenção avançada — R$ 120,00 por hora;
+* 3: emergência — R$ 180,00 por hora.
+
+Regras:
+
+* se o serviço for emergência, aplicar taxa extra de 15%;
+* se o valor total ultrapassar R$ 1000,00, aplicar desconto de 5%;
+* tipo inválido deve exibir erro.
+
+---
+
+### 397. Simulador de seguro
+
+Crie um programa que leia:
+
+* idade do cliente;
+* valor do bem;
+* possui histórico de sinistro, sendo `1` para sim e `0` para não.
+
+Regras:
+
+* clientes menores de 18 anos não podem contratar;
+* valor base do seguro é 5% do valor do bem;
+* se houver histórico de sinistro, acrescente 20% sobre o valor do seguro;
+* se o cliente tiver mais de 60 anos, acrescente 10% sobre o valor do seguro.
+
+Mostre o valor final do seguro.
+
+---
+
+### 398. Sistema de entrega de notas
+
+Crie um programa que leia:
+
+* nota da atividade;
+* nota da prova;
+* nota do projeto;
+* frequência.
+
+Pesos:
+
+* atividade: peso 2;
+* prova: peso 5;
+* projeto: peso 3.
+
+Regras:
+
+* calcule a média ponderada;
+* se frequência for menor que 75, reprove por frequência;
+* se média for menor que 40, reprove por nota;
+* se média estiver entre 40 e 59.99, indique recuperação;
+* se média for maior ou igual a 60, aprove.
+
+---
+
+### 399. Validador de compra online
+
+Crie um programa que leia:
+
+* produto disponível, sendo `1` para sim e `0` para não;
+* pagamento aprovado, sendo `1` para sim e `0` para não;
+* endereço válido, sendo `1` para sim e `0` para não;
+* valor da compra.
+
+Regras:
+
+* se o produto não estiver disponível, exiba `Produto indisponível`;
+* se o pagamento não for aprovado, exiba `Pagamento recusado`;
+* se o endereço for inválido, exiba `Endereço inválido`;
+* se o valor for menor ou igual a zero, exiba `Valor inválido`;
+* se tudo estiver correto, exiba `Compra aprovada`.
+
+---
+
+### 400. Mini sistema de atendimento técnico
+
+Crie um programa que leia:
+
+* tipo de problema;
+* urgência;
+* cliente premium, sendo `1` para sim e `0` para não.
+
+Tipos de problema:
+
+* 1: internet;
+* 2: computador;
+* 3: impressora;
+* 4: sistema.
+
+Urgência:
+
+* 1: baixa;
+* 2: média;
+* 3: alta.
+
+Regras:
+
+* se o tipo de problema for inválido, exiba `Tipo de problema inválido`;
+* se a urgência for inválida, exiba `Urgência inválida`;
+* cliente premium com urgência alta recebe `Atendimento imediato`;
+* urgência alta recebe `Atendimento prioritário`;
+* urgência média recebe `Atendimento no mesmo dia`;
+* urgência baixa recebe `Atendimento em até 48 horas`.
+
+Mostre também o nome do tipo de problema escolhido.
+
+---
+
+## Orientação para os alunos
+
+Neste bloco, o mais importante é interpretar o problema antes de escrever o código.
+
+Antes de programar, responda mentalmente:
+
+1. Quais dados preciso receber?
+2. Preciso fazer algum cálculo?
+3. Quantas possibilidades de resposta existem?
+4. Preciso validar algum dado?
+5. A decisão depende de uma condição simples ou composta?
+
+---
+
+## Exemplo de raciocínio
+
+Problema:
+
+> Um aluno é aprovado se tiver média maior ou igual a 60 e frequência maior ou igual a 75.
+
+Código:
+
+```c id="b34bxh"
+if (media >= 60 && frequencia >= 75) {
+    printf("Aprovado");
+} else {
+    printf("Reprovado");
+}
+```
+
+Agora, se o professor quiser explicar o motivo da reprovação, o código precisa ter mais caminhos:
+
+```c id="lgftr7"
+if (media >= 60 && frequencia >= 75) {
+    printf("Aprovado");
+} else if (media < 60 && frequencia >= 75) {
+    printf("Reprovado por nota");
+} else if (media >= 60 && frequencia < 75) {
+    printf("Reprovado por frequencia");
+} else {
+    printf("Reprovado por nota e frequencia");
+}
+```
+
+---
+
+## Dica importante
+
+Quando o exercício tiver muitas regras, organize o programa em partes:
+
+1. Entrada de dados.
+2. Validação.
+3. Cálculos.
+4. Decisão.
+5. Saída de resultado.
+
+Essa organização deixa o código mais fácil de entender, corrigir e melhorar.
+
+
+# Lista de Exercícios em C
+
+## Bloco 9 — `while`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar a estrutura de repetição `while`.
+
+O `while` é usado quando queremos repetir um bloco de comandos **enquanto uma condição for verdadeira**.
+
+Estrutura básica:
+
+```c
+while (condicao) {
+    // comandos repetidos
+}
+```
+
+Exemplo:
+
+```c
+int contador = 1;
+
+while (contador <= 5) {
+    printf("%d\n", contador);
+    contador++;
+}
+```
+
+Nesse exemplo, o programa mostra os números de 1 até 5.
+
+---
+
+## Exercícios
+
+### 401. Contar de 1 até 10
+
+Crie um programa que use `while` para mostrar os números de 1 até 10.
+
+---
+
+### 402. Contar de 1 até 20
+
+Crie um programa que use `while` para mostrar os números de 1 até 20.
+
+---
+
+### 403. Contar de 1 até 50
+
+Crie um programa que use `while` para mostrar os números de 1 até 50.
+
+---
+
+### 404. Contar de 1 até 100
+
+Crie um programa que use `while` para mostrar os números de 1 até 100.
+
+---
+
+### 405. Contar de 0 até 10
+
+Crie um programa que use `while` para mostrar os números de 0 até 10.
+
+---
+
+### 406. Contar de 10 até 1
+
+Crie um programa que use `while` para mostrar os números de 10 até 1.
+
+---
+
+### 407. Contar de 20 até 1
+
+Crie um programa que use `while` para mostrar os números de 20 até 1.
+
+---
+
+### 408. Contagem regressiva para lançamento
+
+Crie um programa que mostre uma contagem regressiva de 10 até 0.
+
+Ao final, exiba:
+
+`Lançamento!`
+
+---
+
+### 409. Números pares de 1 até 20
+
+Crie um programa que use `while` para mostrar os números pares de 1 até 20.
+
+---
+
+### 410. Números ímpares de 1 até 20
+
+Crie um programa que use `while` para mostrar os números ímpares de 1 até 20.
+
+---
+
+### 411. Números pares de 1 até 100
+
+Crie um programa que use `while` para mostrar os números pares de 1 até 100.
+
+---
+
+### 412. Números ímpares de 1 até 100
+
+Crie um programa que use `while` para mostrar os números ímpares de 1 até 100.
+
+---
+
+### 413. Contar de 5 em 5 até 100
+
+Crie um programa que use `while` para mostrar os números de 5 em 5, começando em 0 e terminando em 100.
+
+---
+
+### 414. Contar de 10 em 10 até 100
+
+Crie um programa que use `while` para mostrar os números de 10 em 10, começando em 0 e terminando em 100.
+
+---
+
+### 415. Contar de 3 em 3 até 30
+
+Crie um programa que use `while` para mostrar os números de 3 em 3, começando em 0 e terminando em 30.
+
+---
+
+### 416. Tabuada do 2
+
+Crie um programa que use `while` para mostrar a tabuada do 2, de 1 até 10.
+
+Exemplo:
+
+`2 x 1 = 2`
+`2 x 2 = 4`
+`...`
+
+---
+
+### 417. Tabuada do 5
+
+Crie um programa que use `while` para mostrar a tabuada do 5, de 1 até 10.
+
+---
+
+### 418. Tabuada de um número informado
+
+Crie um programa que leia um número inteiro e use `while` para mostrar a tabuada desse número, de 1 até 10.
+
+---
+
+### 419. Soma dos números de 1 até 10
+
+Crie um programa que use `while` para somar os números de 1 até 10.
+
+Ao final, mostre o resultado da soma.
+
+---
+
+### 420. Soma dos números de 1 até 100
+
+Crie um programa que use `while` para somar os números de 1 até 100.
+
+Ao final, mostre o resultado da soma.
+
+---
+
+### 421. Soma dos pares de 1 até 100
+
+Crie um programa que use `while` para somar apenas os números pares de 1 até 100.
+
+---
+
+### 422. Soma dos ímpares de 1 até 100
+
+Crie um programa que use `while` para somar apenas os números ímpares de 1 até 100.
+
+---
+
+### 423. Média dos números de 1 até 10
+
+Crie um programa que use `while` para calcular a média dos números de 1 até 10.
+
+---
+
+### 424. Ler 5 números e somar
+
+Crie um programa que use `while` para ler 5 números inteiros digitados pelo usuário.
+
+Ao final, mostre a soma dos números digitados.
+
+---
+
+### 425. Ler 5 números e calcular a média
+
+Crie um programa que use `while` para ler 5 números reais digitados pelo usuário.
+
+Ao final, mostre a média dos números.
+
+---
+
+### 426. Ler 10 números e contar positivos
+
+Crie um programa que use `while` para ler 10 números inteiros.
+
+Ao final, mostre quantos números positivos foram digitados.
+
+---
+
+### 427. Ler 10 números e contar negativos
+
+Crie um programa que use `while` para ler 10 números inteiros.
+
+Ao final, mostre quantos números negativos foram digitados.
+
+---
+
+### 428. Ler 10 números e contar zeros
+
+Crie um programa que use `while` para ler 10 números inteiros.
+
+Ao final, mostre quantos zeros foram digitados.
+
+---
+
+### 429. Ler 10 números e contar pares
+
+Crie um programa que use `while` para ler 10 números inteiros.
+
+Ao final, mostre quantos números pares foram digitados.
+
+---
+
+### 430. Ler 10 números e contar ímpares
+
+Crie um programa que use `while` para ler 10 números inteiros.
+
+Ao final, mostre quantos números ímpares foram digitados.
+
+---
+
+### 431. Maior número entre 5 valores
+
+Crie um programa que use `while` para ler 5 números inteiros.
+
+Ao final, mostre o maior número digitado.
+
+---
+
+### 432. Menor número entre 5 valores
+
+Crie um programa que use `while` para ler 5 números inteiros.
+
+Ao final, mostre o menor número digitado.
+
+---
+
+### 433. Maior e menor entre 5 valores
+
+Crie um programa que use `while` para ler 5 números inteiros.
+
+Ao final, mostre:
+
+* o maior número digitado;
+* o menor número digitado.
+
+---
+
+### 434. Validar senha
+
+Crie um programa que leia uma senha numérica.
+
+Enquanto a senha for diferente de `1234`, o programa deverá pedir a senha novamente.
+
+Quando a senha correta for digitada, exiba:
+
+`Acesso liberado.`
+
+---
+
+### 435. Validar nota
+
+Crie um programa que leia uma nota.
+
+Enquanto a nota for menor que 0 ou maior que 100, o programa deverá pedir a nota novamente.
+
+Quando uma nota válida for digitada, exiba:
+
+`Nota válida.`
+
+---
+
+### 436. Validar idade
+
+Crie um programa que leia uma idade.
+
+Enquanto a idade for menor que 0 ou maior que 120, o programa deverá pedir a idade novamente.
+
+Quando uma idade válida for digitada, exiba:
+
+`Idade válida.`
+
+---
+
+### 437. Validar opção de menu
+
+Crie um programa que mostre o menu:
+
+`1 - Cadastrar`
+`2 - Listar`
+`3 - Sair`
+
+Enquanto o usuário digitar uma opção diferente de 1, 2 ou 3, o programa deverá pedir uma nova opção.
+
+Quando a opção for válida, exiba:
+
+`Opção válida.`
+
+---
+
+### 438. Repetir até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Quando o usuário digitar zero, o programa deverá encerrar e exibir:
+
+`Programa finalizado.`
+
+---
+
+### 439. Somar até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre a soma de todos os números digitados, sem considerar o zero.
+
+---
+
+### 440. Contar números até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre quantos números foram digitados, sem contar o zero.
+
+---
+
+### 441. Média até digitar zero
+
+Crie um programa que leia números reais enquanto o usuário não digitar zero.
+
+Ao final, mostre a média dos valores digitados, sem considerar o zero.
+
+Atenção: evite divisão por zero caso o primeiro valor digitado seja zero.
+
+---
+
+### 442. Contar positivos até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre quantos números positivos foram digitados.
+
+---
+
+### 443. Contar negativos até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre quantos números negativos foram digitados.
+
+---
+
+### 444. Somar pares até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre a soma apenas dos números pares digitados.
+
+---
+
+### 445. Somar ímpares até digitar zero
+
+Crie um programa que leia números inteiros enquanto o usuário não digitar zero.
+
+Ao final, mostre a soma apenas dos números ímpares digitados.
+
+---
+
+### 446. Menu repetitivo simples
+
+Crie um programa que mostre o menu abaixo repetidamente enquanto o usuário não escolher a opção 3:
+
+`1 - Olá`
+`2 - Mostrar mensagem`
+`3 - Sair`
+
+Regras:
+
+* opção 1: exibir `Olá, usuário!`;
+* opção 2: exibir `Estudando while em C.`;
+* opção 3: exibir `Saindo do sistema.`;
+* qualquer outra opção: exibir `Opção inválida.`
+
+---
+
+### 447. Caixa eletrônico simplificado
+
+Crie um programa que leia um saldo inicial.
+
+Depois, mostre um menu repetidamente:
+
+`1 - Consultar saldo`
+`2 - Depositar`
+`3 - Sacar`
+`4 - Sair`
+
+Regras:
+
+* consultar saldo: mostrar o saldo atual;
+* depositar: ler um valor e adicionar ao saldo;
+* sacar: ler um valor e subtrair do saldo apenas se houver saldo suficiente;
+* sair: encerrar o programa;
+* opção inválida: mostrar mensagem de erro.
+
+---
+
+### 448. Sistema de vendas com repetição
+
+Crie um programa que leia o preço de vários produtos enquanto o usuário não digitar `0`.
+
+Ao final, mostre:
+
+* quantidade de produtos comprados;
+* valor total da compra.
+
+---
+
+### 449. Sistema de notas com repetição
+
+Crie um programa que leia várias notas enquanto o usuário não digitar `-1`.
+
+Ao final, mostre:
+
+* quantidade de notas digitadas;
+* média da turma.
+
+Atenção: o valor `-1` não deve entrar no cálculo.
+
+---
+
+### 450. Jogo de adivinhação
+
+Crie um programa que defina um número secreto fixo, por exemplo `37`.
+
+O usuário deverá tentar adivinhar o número.
+
+Enquanto ele não acertar, o programa deverá informar:
+
+* `Tente um número maior`, se o palpite for menor que o número secreto;
+* `Tente um número menor`, se o palpite for maior que o número secreto.
+
+Quando acertar, exiba:
+
+`Parabéns, você acertou!`
+
+Também mostre quantas tentativas foram necessárias.
+
+---
+
+## Orientação para os alunos
+
+O `while` geralmente possui três partes importantes:
+
+### 1. Inicialização
+
+É quando criamos a variável antes do laço.
+
+```c
+int contador = 1;
+```
+
+### 2. Condição
+
+É a regra que mantém o laço funcionando.
+
+```c
+while (contador <= 10)
+```
+
+### 3. Atualização
+
+É a alteração que faz o laço caminhar para o fim.
+
+```c
+contador++;
+```
+
+Exemplo completo:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int contador = 1;
+
+    while (contador <= 10) {
+        printf("%d\n", contador);
+        contador++;
+    }
+
+    return 0;
+}
+```
+
+---
+
+## Cuidado com loop infinito
+
+Um erro muito comum é esquecer de atualizar a variável de controle.
+
+Exemplo problemático:
+
+```c
+int contador = 1;
+
+while (contador <= 10) {
+    printf("%d\n", contador);
+}
+```
+
+Nesse caso, o valor de `contador` nunca muda.
+Então a condição `contador <= 10` será sempre verdadeira, criando um loop infinito.
+
+O correto seria:
+
+```c
+int contador = 1;
+
+while (contador <= 10) {
+    printf("%d\n", contador);
+    contador++;
+}
+```
+
+---
+
+## Dica final
+
+Antes de escrever um `while`, pergunte:
+
+`O que precisa acontecer para a repetição parar?`
+
+Essa pergunta ajuda a encontrar a condição correta do laço.
+
+
+# Lista de Exercícios em C
+
+## Bloco 10 — `for`
+
+### Objetivo do bloco
+
+Neste bloco, o aluno deverá praticar a estrutura de repetição `for`.
+
+O `for` é muito usado quando sabemos previamente quantas vezes uma repetição deve acontecer.
+
+Estrutura básica:
+
+```c
+for (inicializacao; condicao; atualizacao) {
+    // comandos repetidos
+}
+```
+
+Exemplo:
+
+```c
+for (int contador = 1; contador <= 10; contador++) {
+    printf("%d\n", contador);
+}
+```
+
+Nesse exemplo, o programa mostra os números de 1 até 10.
+
+---
+
+## Exercícios
+
+### 451. Contar de 1 até 10
+
+Crie um programa que use `for` para mostrar os números de 1 até 10.
+
+---
+
+### 452. Contar de 1 até 20
+
+Crie um programa que use `for` para mostrar os números de 1 até 20.
+
+---
+
+### 453. Contar de 1 até 50
+
+Crie um programa que use `for` para mostrar os números de 1 até 50.
+
+---
+
+### 454. Contar de 1 até 100
+
+Crie um programa que use `for` para mostrar os números de 1 até 100.
+
+---
+
+### 455. Contar de 0 até 10
+
+Crie um programa que use `for` para mostrar os números de 0 até 10.
+
+---
+
+### 456. Contar de 10 até 1
+
+Crie um programa que use `for` para mostrar os números de 10 até 1.
+
+---
+
+### 457. Contar de 100 até 1
+
+Crie um programa que use `for` para mostrar os números de 100 até 1.
+
+---
+
+### 458. Contagem regressiva
+
+Crie um programa que use `for` para mostrar uma contagem regressiva de 10 até 0.
+
+Ao final, exiba:
+
+`Fim da contagem.`
+
+---
+
+### 459. Números pares de 1 até 20
+
+Crie um programa que use `for` para mostrar os números pares de 1 até 20.
+
+---
+
+### 460. Números ímpares de 1 até 20
+
+Crie um programa que use `for` para mostrar os números ímpares de 1 até 20.
+
+---
+
+### 461. Números pares de 1 até 100
+
+Crie um programa que use `for` para mostrar os números pares de 1 até 100.
+
+---
+
+### 462. Números ímpares de 1 até 100
+
+Crie um programa que use `for` para mostrar os números ímpares de 1 até 100.
+
+---
+
+### 463. Contar de 2 em 2 até 50
+
+Crie um programa que use `for` para mostrar os números de 2 em 2, começando em 0 e terminando em 50.
+
+---
+
+### 464. Contar de 5 em 5 até 100
+
+Crie um programa que use `for` para mostrar os números de 5 em 5, começando em 0 e terminando em 100.
+
+---
+
+### 465. Contar de 10 em 10 até 200
+
+Crie um programa que use `for` para mostrar os números de 10 em 10, começando em 0 e terminando em 200.
+
+---
+
+### 466. Múltiplos de 3 até 60
+
+Crie um programa que use `for` para mostrar os múltiplos de 3 de 0 até 60.
+
+---
+
+### 467. Múltiplos de 4 até 80
+
+Crie um programa que use `for` para mostrar os múltiplos de 4 de 0 até 80.
+
+---
+
+### 468. Múltiplos de 5 até 100
+
+Crie um programa que use `for` para mostrar os múltiplos de 5 de 0 até 100.
+
+---
+
+### 469. Tabuada do 2
+
+Crie um programa que use `for` para mostrar a tabuada do 2, de 1 até 10.
+
+Exemplo:
+
+`2 x 1 = 2`
+`2 x 2 = 4`
+`2 x 3 = 6`
+
+---
+
+### 470. Tabuada do 7
+
+Crie um programa que use `for` para mostrar a tabuada do 7, de 1 até 10.
+
+---
+
+### 471. Tabuada de um número informado
+
+Crie um programa que leia um número inteiro e use `for` para mostrar a tabuada desse número, de 1 até 10.
+
+---
+
+### 472. Tabuada personalizada
+
+Crie um programa que leia:
+
+* número da tabuada;
+* número inicial;
+* número final.
+
+Depois, mostre a tabuada do número informado dentro do intervalo escolhido.
+
+Exemplo:
+
+Número: `5`
+Início: `3`
+Fim: `8`
+
+Saída:
+
+`5 x 3 = 15`
+`5 x 4 = 20`
+`5 x 5 = 25`
+`5 x 6 = 30`
+`5 x 7 = 35`
+`5 x 8 = 40`
+
+---
+
+### 473. Soma dos números de 1 até 10
+
+Crie um programa que use `for` para somar os números de 1 até 10.
+
+Ao final, mostre o resultado da soma.
+
+---
+
+### 474. Soma dos números de 1 até 100
+
+Crie um programa que use `for` para somar os números de 1 até 100.
+
+Ao final, mostre o resultado da soma.
+
+---
+
+### 475. Soma dos pares de 1 até 100
+
+Crie um programa que use `for` para somar apenas os números pares de 1 até 100.
+
+---
+
+### 476. Soma dos ímpares de 1 até 100
+
+Crie um programa que use `for` para somar apenas os números ímpares de 1 até 100.
+
+---
+
+### 477. Média dos números de 1 até 10
+
+Crie um programa que use `for` para calcular a média dos números de 1 até 10.
+
+---
+
+### 478. Ler 5 números e somar
+
+Crie um programa que use `for` para ler 5 números inteiros digitados pelo usuário.
+
+Ao final, mostre a soma dos números digitados.
+
+---
+
+### 479. Ler 5 números e calcular média
+
+Crie um programa que use `for` para ler 5 números reais digitados pelo usuário.
+
+Ao final, mostre a média dos números.
+
+---
+
+### 480. Ler 10 números e contar positivos
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre quantos números positivos foram digitados.
+
+---
+
+### 481. Ler 10 números e contar negativos
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre quantos números negativos foram digitados.
+
+---
+
+### 482. Ler 10 números e contar zeros
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre quantos números iguais a zero foram digitados.
+
+---
+
+### 483. Ler 10 números e contar pares
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre quantos números pares foram digitados.
+
+---
+
+### 484. Ler 10 números e contar ímpares
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre quantos números ímpares foram digitados.
+
+---
+
+### 485. Ler 10 números e somar positivos
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre a soma apenas dos números positivos.
+
+---
+
+### 486. Ler 10 números e somar negativos
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre a soma apenas dos números negativos.
+
+---
+
+### 487. Maior número entre 5 valores
+
+Crie um programa que use `for` para ler 5 números inteiros.
+
+Ao final, mostre o maior número digitado.
+
+---
+
+### 488. Menor número entre 5 valores
+
+Crie um programa que use `for` para ler 5 números inteiros.
+
+Ao final, mostre o menor número digitado.
+
+---
+
+### 489. Maior e menor entre 10 valores
+
+Crie um programa que use `for` para ler 10 números inteiros.
+
+Ao final, mostre:
+
+* o maior número digitado;
+* o menor número digitado.
+
+---
+
+### 490. Média de uma turma
+
+Crie um programa que leia a quantidade de alunos de uma turma.
+
+Depois, use `for` para ler a nota de cada aluno.
+
+Ao final, mostre a média da turma.
+
+---
+
+### 491. Quantidade de aprovados
+
+Crie um programa que leia a quantidade de alunos de uma turma.
+
+Depois, use `for` para ler a média de cada aluno.
+
+Considere aprovado o aluno com média maior ou igual a 60.
+
+Ao final, mostre quantos alunos foram aprovados.
+
+---
+
+### 492. Quantidade de reprovados
+
+Crie um programa que leia a quantidade de alunos de uma turma.
+
+Depois, use `for` para ler a média de cada aluno.
+
+Considere reprovado o aluno com média menor que 60.
+
+Ao final, mostre quantos alunos foram reprovados.
+
+---
+
+### 493. Relatório de notas da turma
+
+Crie um programa que leia a quantidade de alunos.
+
+Para cada aluno, leia:
+
+* nome;
+* nota 1;
+* nota 2.
+
+Calcule a média de cada aluno e mostre se ele foi aprovado ou reprovado.
+
+Ao final, mostre:
+
+* quantidade de aprovados;
+* quantidade de reprovados;
+* média geral da turma.
+
+---
+
+### 494. Cálculo de fatorial
+
+Crie um programa que leia um número inteiro positivo e use `for` para calcular seu fatorial.
+
+Exemplo:
+
+`5! = 5 x 4 x 3 x 2 x 1 = 120`
+
+---
+
+### 495. Sequência de quadrados
+
+Crie um programa que use `for` para mostrar os números de 1 até 10 e o quadrado de cada um.
+
+Exemplo:
+
+`1 ao quadrado = 1`
+`2 ao quadrado = 4`
+`3 ao quadrado = 9`
+
+---
+
+### 496. Sequência de cubos
+
+Crie um programa que use `for` para mostrar os números de 1 até 10 e o cubo de cada um.
+
+---
+
+### 497. Potência por repetição
+
+Crie um programa que leia:
+
+* base;
+* expoente inteiro positivo.
+
+Use `for` para calcular a potência sem usar funções prontas.
+
+Exemplo:
+
+Base: `2`
+Expoente: `4`
+Resultado: `16`
+
+---
+
+### 498. Juros compostos simples
+
+Crie um programa que leia:
+
+* valor inicial;
+* percentual de rendimento mensal;
+* quantidade de meses.
+
+Use `for` para calcular o valor final mês a mês.
+
+Mostre o valor final do investimento.
+
+---
+
+### 499. Crescimento populacional
+
+Crie um programa que leia:
+
+* população inicial;
+* percentual de crescimento anual;
+* quantidade de anos.
+
+Use `for` para calcular a população estimada ao final do período.
+
+---
+
+### 500. Simulador de vendas semanais
+
+Crie um programa que leia as vendas de 7 dias da semana usando `for`.
+
+Ao final, mostre:
+
+* total vendido na semana;
+* média diária de vendas;
+* maior venda registrada;
+* menor venda registrada.
+
+---
+
+## Orientação para os alunos
+
+O `for` concentra três partes importantes em uma única linha:
+
+```c
+for (inicializacao; condicao; atualizacao)
+```
+
+Exemplo:
+
+```c
+for (int contador = 1; contador <= 10; contador++) {
+    printf("%d\n", contador);
+}
+```
+
+Nesse exemplo:
+
+* `int contador = 1` cria e inicia o contador;
+* `contador <= 10` define até quando o laço repete;
+* `contador++` aumenta o contador a cada volta.
+
+---
+
+## Comparação com `while`
+
+Este código com `while`:
+
+```c
+int contador = 1;
+
+while (contador <= 10) {
+    printf("%d\n", contador);
+    contador++;
+}
+```
+
+Pode ser escrito com `for` assim:
+
+```c
+for (int contador = 1; contador <= 10; contador++) {
+    printf("%d\n", contador);
+}
+```
+
+Os dois fazem a mesma coisa, mas o `for` deixa a repetição controlada mais compacta.
+
+---
+
+## Quando usar `for`
+
+Use `for` principalmente quando você já souber quantas vezes a repetição deve acontecer.
+
+Exemplos:
+
+* repetir 10 vezes;
+* ler 5 notas;
+* mostrar uma tabuada de 1 a 10;
+* percorrer números de 1 até 100;
+* somar uma sequência com início e fim definidos.
+
+---
+
+## Cuidados importantes
+
+### 1. Não esquecer o ponto e vírgula dentro do `for`
+
+Formato correto:
+
+```c
+for (int i = 1; i <= 10; i++)
+```
+
+Formato incorreto:
+
+```c
+for (int i = 1, i <= 10, i++)
+```
+
+No `for`, as três partes são separadas por ponto e vírgula, não por vírgula.
+
+---
+
+### 2. Cuidado com loop infinito
+
+Exemplo perigoso:
+
+```c
+for (int i = 1; i <= 10; i--) {
+    printf("%d\n", i);
+}
+```
+
+Aqui o `i` começa em 1 e vai diminuindo.
+Como ele nunca ficará maior que 10, a condição `i <= 10` continuará verdadeira por muito tempo.
+
+---
+
+### 3. Cuidado com o limite
+
+Este código mostra de 1 até 10:
+
+```c
+for (int i = 1; i <= 10; i++)
+```
+
+Este código mostra de 1 até 9:
+
+```c
+for (int i = 1; i < 10; i++)
+```
+
+A diferença entre `<` e `<=` muda o resultado final.
+

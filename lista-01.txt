@@ -1,0 +1,14 @@
+LISTA 01 - EXERCÍCIOS
+
+Professor: Dayvson Rodrigues
+Disciplina: ___________________________
+Aluno(a): _____________________________
+
+1. Escreva aqui o primeiro exercício da lista.
+2. Escreva aqui o segundo exercício da lista.
+3. Escreva aqui o terceiro exercício da lista.
+4. Escreva aqui o quarto exercício da lista.
+5. Escreva aqui o quinto exercício da lista.
+
+Observação:
+Substitua este conteúdo pelos exercícios reais antes de publicar no GitHub.
